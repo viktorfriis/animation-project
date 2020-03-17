@@ -1,0 +1,24 @@
+{
+  "name": "animation-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel *.html --open",
+    "build": "parcel build *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikt5485/animation-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikt5485/animation-project/issues"
+  },
+  "homepage": "https://github.com/vikt5485/animation-project#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
