@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(44, 44, 44);
+}
+
+img {
+    width: 80%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#push_x5F_message {
+    transform: translateY(-200px);
+}
+
+#bike_scene {
+    width: 1000px;
+}
