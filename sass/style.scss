@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(214, 214, 214);
 }
 
 img {
@@ -16,5 +16,9 @@ section {
 }
 
 #bike_scene {
-    width: 1000px;
+    width: 70%;
+}
+
+#bike_scene>svg:nth-child(2) {
+    width: 100%;
 }

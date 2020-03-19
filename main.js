@@ -9,7 +9,7 @@ const el = document.querySelector("section");
 function start() {
     console.log("start");
 
-    fetch('imgs/bike_bike.svg')
+    fetch('imgs/b_bike.svg')
         .then(r => r.text())
         .then(text => {
             el.innerHTML = text;
@@ -17,7 +17,7 @@ function start() {
         })
         .catch(console.error.bind(console));
 
-    fetch('imgs/bike_phone.svg')
+    fetch('imgs/b_phone.svg')
         .then(r => r.text())
         .then(text => {
             el.innerHTML += text;
@@ -26,16 +26,14 @@ function start() {
         .catch(console.error.bind(console));
 }
 
-
-
 function SVGInteractive() {
     const wheelDuration = 1;
     const repeats = 100;
 
     const rightWheel = document.querySelector("#right_x5F_wheel");
     const leftWheel = document.querySelector("#left_x5F_wheel");
-    const frontPedal = document.querySelector("#front_x5F_pedal");
-    const backPedal = document.querySelector("#back_x5F_pedal");
+    const frontLeg = document.querySelector("#front_x5F_leg");
+    const backLeg = document.querySelector("#back_x5F_leg");
 
     const pushMessage = document.querySelector("#push_x5F_message");
 
@@ -57,27 +55,25 @@ function SVGInteractive() {
         transformOrigin: "center"
     })
 
-    gsap.to(frontPedal, {
-        rotate: 360,
-        repeat: repeats,
-        duration: wheelDuration,
-        ease: "none",
-        transformBox: "content-box",
-        transformOrigin: "top"
-    })
-
-    gsap.to(backPedal, {
-        rotate: 360,
-        repeat: repeats,
-        duration: wheelDuration,
-        ease: "none",
-        transformBox: "content-box",
-        transformOrigin: "bottom"
-    })
-
     gsap.to(pushMessage, {
         y: 0,
         duration: 0.3,
-        delay: 5
+        delay: 2
+    })
+
+    gsap.to(frontLeg, {
+        rotate: 5,
+        yoyo: true,
+        repeat: repeats,
+        duration: wheelDuration,
+        ease: "none"
+    })
+
+    gsap.to(backLeg, {
+        rotate: -5,
+        yoyo: true,
+        repeat: repeats,
+        duration: wheelDuration,
+        ease: "none"
     })
 }
