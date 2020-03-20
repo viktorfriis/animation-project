@@ -52,7 +52,6 @@ function zoomSymbol() {
     const svg = document.querySelector("svg");
     console.log(this.getBoundingClientRect());
 
-
     const symbolBox = this.getBBox();
     const clickedSymbol = myJSON[i];
 
