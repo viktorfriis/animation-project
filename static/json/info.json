@@ -1,0 +1,27 @@
+[{
+        "title": "Programmering",
+        "x": 240,
+        "y": -30
+    },
+    {
+        "title": "E-handel",
+        "x": 550,
+        "y": 300
+    }, {
+        "title": "Internet",
+        "x": 470,
+        "y": 600
+    }, {
+        "title": "Esport",
+        "x": 310,
+        "y": 720
+    }, {
+        "title": "Kommunikation",
+        "x": -30,
+        "y": 490
+    }, {
+        "title": "Arbejde",
+        "x": 60,
+        "y": 180
+    }
+]
