@@ -48,13 +48,60 @@ function SVGInteractive() {
 }
 
 function zoomSymbol() {
+    console.log("zoom");
     const i = Number(this.dataset.number);
     const svg = document.querySelector("svg");
-    console.log(this.getBoundingClientRect());
+    console.log(i);
 
     const symbolBox = this.getBBox();
     const clickedSymbol = myJSON[i];
 
-    svg.style.transform = "scale(5)";
+    //document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
+
+
     svg.style.transformOrigin = `${clickedSymbol.x}px ${clickedSymbol.y}px`;
+
+    const timeline = gsap.timeline();
+
+    const timelineLine = gsap.timeline();
+
+
+    timelineLine.to(`#circle_x5F_${i}_x5F_start`, {
+        strokeDashoffset: 0,
+        duration: 1
+    })
+
+    timelineLine.to(`#path_x5F_${i}`, {
+        strokeDashoffset: 0,
+        duration: 2
+    })
+
+    timelineLine.to(`#circle_x5F_${i}_x5F_end`, {
+        strokeDashoffset: 0,
+        duration: 1
+    })
+
+    timeline.to(svg, {
+        scale: 5,
+        duration: 1,
+        ease: "none",
+        delay: 1
+    })
+
+    timeline.to("#infoscreen", {
+        maxHeight: "80vh",
+        border: "10px solid #00FF00",
+        padding: "50px",
+        duration: 1,
+        delay: 1.5
+    })
+
+    timeline.to(".infotext", {
+        opacity: "1",
+        duration: 0.3
+    })
 }
+
+
+//circle: 19
+//line prog: 202
