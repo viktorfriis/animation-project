@@ -63,8 +63,7 @@ function zoomSymbol() {
     const symbolBox = this.getBBox();
     const clickedSymbol = myJSON[i];
 
-    //document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
-
+    document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
 
     svg.style.transformOrigin = `${clickedSymbol.x}px ${clickedSymbol.y}px`;
 
