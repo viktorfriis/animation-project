@@ -7,15 +7,16 @@ body {
 }
 
 #landing {
-    max-width: 660px;
     position: relative;
+    padding: 10px;
+    height: 100vh;
+    display: grid;
+    align-content: center;
 }
 
 svg {
     transition: 3s;
 }
-
-
 
 #infoscreen {
     position: absolute;
@@ -36,11 +37,19 @@ svg {
 
     h1,
     p,
-    img {
+    img,
+    #close {
         opacity: 0;
     }
-}
 
+    #close {
+        font-size: 30px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        font-family: sans-serif;
+    }
+}
 
 #circle_x5F_0_x5F_start,
 #circle_x5F_0_x5F_end,
@@ -56,12 +65,20 @@ svg {
 #circle_x5F_5_x5F_end {
     stroke-dashoffset: 19;
     stroke-dasharray: 19;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transform-box: fill-box;
 }
 
-#circle_x5F_3_x5F_start {
-    stroke-dashoffset: 19;
-    stroke-dasharray: 19;
+#circle_x5F_0_x5F_end,
+#circle_x5F_1_x5F_end,
+#circle_x5F_2_x5F_end,
+#circle_x5F_3_x5F_end,
+#circle_x5F_4_x5F_end,
+#circle_x5F_5_x5F_end {
+    transform: rotate(90deg);
 }
+
 
 #path_x5F_0 {
     stroke-dasharray: 202;
@@ -69,18 +86,18 @@ svg {
 }
 
 #path_x5F_1 {
-    stroke-dasharray: 74;
-    stroke-dashoffset: 74;
+    stroke-dasharray: 104;
+    stroke-dashoffset: 104;
 }
 
 #path_x5F_2 {
-    stroke-dasharray: 53;
-    stroke-dashoffset: 53;
+    stroke-dasharray: 106;
+    stroke-dashoffset: 106;
 }
 
 #path_x5F_3 {
-    stroke-dasharray: 93;
-    stroke-dashoffset: 93;
+    stroke-dasharray: 141;
+    stroke-dashoffset: 141;
 }
 
 #path_x5F_4 {

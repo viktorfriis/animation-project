@@ -1,27 +1,33 @@
 [{
         "title": "Programmering",
-        "x": 240,
-        "y": -30
+        "x": 322,
+        "y": -17,
+        "dash": 202
     },
     {
         "title": "E-handel",
-        "x": 550,
-        "y": 300
+        "x": 681,
+        "y": 347,
+        "dash": 104
     }, {
         "title": "Internet",
-        "x": 470,
-        "y": 600
+        "x": 574,
+        "y": 681,
+        "dash": 106
     }, {
         "title": "Esport",
-        "x": 310,
-        "y": 720
+        "x": 374,
+        "y": 859,
+        "dash": 141
     }, {
         "title": "Kommunikation",
-        "x": -30,
-        "y": 490
+        "x": -17,
+        "y": 574,
+        "dash": 134
     }, {
         "title": "Arbejde",
-        "x": 60,
-        "y": 180
+        "x": 90,
+        "y": 197,
+        "dash": 127
     }
 ]

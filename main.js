@@ -31,6 +31,13 @@ function fetchSVGS() {
 
 function SVGInteractive() {
     console.log("klar");
+    let symbolCount = 5;
+
+    document.querySelectorAll("#symbols > g > g+g+g").forEach(symbol => {
+        symbol.classList.add("symbol");
+        symbol.dataset.number = symbolCount;
+        symbolCount--;
+    })
 
     document.querySelectorAll(".symbol").forEach(symbol => {
         symbol.addEventListener("click", zoomSymbol);
@@ -62,9 +69,7 @@ function zoomSymbol() {
     svg.style.transformOrigin = `${clickedSymbol.x}px ${clickedSymbol.y}px`;
 
     const timeline = gsap.timeline();
-
     const timelineLine = gsap.timeline();
-
 
     timelineLine.to(`#circle_x5F_${i}_x5F_start`, {
         strokeDashoffset: 0,
@@ -100,6 +105,62 @@ function zoomSymbol() {
         opacity: "1",
         duration: 0.3
     })
+
+
+    document.querySelector("#close").addEventListener("click", () => {
+        closePopup(i, clickedSymbol);
+    });
+}
+
+function closePopup(i, clickedSymbol) {
+    const svg = document.querySelector("svg");
+
+    const timeline = gsap.timeline();
+    const timelineLine = gsap.timeline();
+
+    timeline.to(".infotext", {
+        opacity: "0",
+        duration: 0.3
+    })
+
+    timeline.to("#infoscreen", {
+        maxHeight: "0",
+        border: "0px solid #00FF00",
+        padding: "0",
+        duration: 1
+    })
+
+    timeline.to(svg, {
+        scale: 1,
+        duration: 1,
+        ease: "none"
+    })
+
+
+    timelineLine.to(`#circle_x5F_${i}_x5F_end`, {
+        strokeDashoffset: 19,
+        duration: 1,
+        delay: 1
+    })
+
+    timelineLine.to(`#path_x5F_${i}`, {
+        strokeDashoffset: clickedSymbol.dash,
+        duration: 2
+    })
+
+    timelineLine.to(`#circle_x5F_${i}_x5F_start`, {
+        strokeDashoffset: 19,
+        duration: 1
+    })
+
+
+
+
+
+
+
+
+
 }
 
 
