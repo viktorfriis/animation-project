@@ -13,9 +13,17 @@
         "dash": 141
     }, {
         "title": "Kommunikation",
-        "dash": 134
+        "dash": 134,
+        "billede_1": "nyhed_foer.jpg",
+        "billede_1_billedtekst": "Avisen blev læst på både caféer og i hjemmet i gamle dage.",
+        "billede_2": "nyhed_nu.jpg",
+        "billede_2_billedtekst": "Nyheder bliver i dag leveret på både håndledet og i postkassen."
     }, {
         "title": "Arbejde",
-        "dash": 127
+        "dash": 127,
+        "billede_1": "arbejde_foer.jpg",
+        "billede_1_billedtekst": "Volkswagen fabrik i 1957, hvor forskellige modeller bliver samlet.",
+        "billede_2": "arbejde_nu.jpg",
+        "billede_2_billedtekst": "Flere robotarme arbejder på at samle en bil i dag. Hurtigere og mere effektivt end mennesket kan gøre det."
     }
 ]
