@@ -30,6 +30,7 @@ function fetchData() {
 
 function SVGInteractive() {
     console.log("klar");
+
     let symbolCount = 5;
 
     document.querySelectorAll("#symbols > g > g+g+g").forEach(symbol => {
@@ -57,6 +58,7 @@ function zoomSymbol() {
     const i = Number(this.dataset.number);
     const svg = document.querySelector("svg");
     console.log(i);
+    // document.querySelector("#startup").play();
 
     const symbolBox = this.getBBox();
     console.log(symbolBox);
@@ -120,6 +122,8 @@ function zoomSymbol() {
 
 function closePopup(i, clickedSymbol) {
     const svg = document.querySelector("svg");
+
+    // document.querySelector("#shutdown").play();
 
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
