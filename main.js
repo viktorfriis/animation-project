@@ -66,32 +66,12 @@ function zoomSymbol() {
     //Info i infoboksen bliver opdateret, afhængig af hvilket symbol der er klikket på
     document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
 
-    //   if (clickedSymbol.par4 != undefined) {
-    //     console.log("TEST4: ", clickedSymbol.par4);
-    //   }
-
-    if (clickedSymbol.par1 != "undefined") {
-        document.querySelector("#par1").textContent = clickedSymbol.par1;
-    }
-    if (clickedSymbol.par2 != "undefined") {
-        document.querySelector("#par2").textContent = clickedSymbol.par2;
-    }
-
-    if (clickedSymbol.par3 != "undefined") {
-        document.querySelector("#par3").textContent = clickedSymbol.par3;
-    }
-
-    if (clickedSymbol.par4 != "undefined") {
-        document.querySelector("#par4").textContent = clickedSymbol.par4;
-    }
-
-    if (clickedSymbol.par5 != "undefined") {
-        document.querySelector("#par5").textContent = clickedSymbol.par5;
-    }
-
-    if (clickedSymbol.par6 != "undefined") {
-        document.querySelector("#par6").textContent = clickedSymbol.par6;
-    }
+    document.querySelector("#par1").textContent = clickedSymbol.par1;
+    document.querySelector("#par2").textContent = clickedSymbol.par2;
+    document.querySelector("#par3").textContent = clickedSymbol.par3;
+    document.querySelector("#par4").textContent = clickedSymbol.par4;
+    document.querySelector("#par5").textContent = clickedSymbol.par5;
+    document.querySelector("#par6").textContent = clickedSymbol.par6;
 
     document.querySelector("#img1").src = `images/${clickedSymbol.billede_1}`;
     document.querySelector("#figcaption1").textContent = clickedSymbol.billede_1_billedtekst;
