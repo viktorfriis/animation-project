@@ -57,6 +57,7 @@ function zoomSymbol() {
     const i = Number(this.dataset.number);
     const svg = document.querySelector("svg");
     console.log(i);
+    document.querySelector("#startup").play();
 
     const symbolBox = this.getBBox();
     console.log(symbolBox);
@@ -128,6 +129,7 @@ function zoomSymbol() {
 
 function closePopup(i, clickedSymbol) {
     const svg = document.querySelector("svg");
+    document.querySelector("#shutdown").play();
 
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
