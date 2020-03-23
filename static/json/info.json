@@ -1,33 +1,21 @@
 [{
         "title": "Programmering",
-        "x": 322,
-        "y": -17,
         "dash": 202
     },
     {
         "title": "E-handel",
-        "x": 681,
-        "y": 347,
         "dash": 104
     }, {
         "title": "Internet",
-        "x": 574,
-        "y": 681,
         "dash": 106
     }, {
         "title": "Esport",
-        "x": 374,
-        "y": 859,
         "dash": 141
     }, {
         "title": "Kommunikation",
-        "x": -17,
-        "y": 574,
         "dash": 134
     }, {
         "title": "Arbejde",
-        "x": 90,
-        "y": 197,
         "dash": 127
     }
 ]

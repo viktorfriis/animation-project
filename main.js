@@ -61,11 +61,13 @@ function zoomSymbol() {
     console.log(i);
 
     const symbolBox = this.getBBox();
+    console.log(symbolBox);
+
     const clickedSymbol = myJSON[i];
 
     document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
 
-    svg.style.transformOrigin = `${clickedSymbol.x}px ${clickedSymbol.y}px`;
+    //svg.style.transformOrigin = `${clickedSymbol.x}px ${clickedSymbol.y}px`;
 
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
@@ -86,9 +88,10 @@ function zoomSymbol() {
     })
 
     timeline.to(svg, {
-        scale: 5,
-        duration: 1,
-        ease: "none",
+        attr: {
+            viewBox: `${symbolBox.x - 40} ${symbolBox.y - 40} 175 200`
+        },
+        duration: 2,
         delay: 1
     })
 
@@ -97,7 +100,7 @@ function zoomSymbol() {
         border: "10px solid #00FF00",
         padding: "50px",
         duration: 1,
-        delay: 1.5
+        delay: 1
     })
 
     timeline.to(".infotext", {
@@ -130,9 +133,10 @@ function closePopup(i, clickedSymbol) {
     })
 
     timeline.to(svg, {
-        scale: 1,
-        duration: 1,
-        ease: "none"
+        attr: {
+            viewBox: `0 0 700 800`
+        },
+        duration: 2,
     })
 
 
@@ -151,17 +155,4 @@ function closePopup(i, clickedSymbol) {
         strokeDashoffset: 19,
         duration: 1
     })
-
-
-
-
-
-
-
-
-
 }
-
-
-//circle: 19
-//line prog: 202
