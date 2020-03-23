@@ -67,8 +67,6 @@ function zoomSymbol() {
 
     document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
 
-    //svg.style.transformOrigin = `${clickedSymbol.x}px ${clickedSymbol.y}px`;
-
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
 
@@ -89,7 +87,7 @@ function zoomSymbol() {
 
     timeline.to(svg, {
         attr: {
-            viewBox: `${symbolBox.x - 40} ${symbolBox.y - 40} 175 200`
+            viewBox: `${symbolBox.x - 40} ${symbolBox.y - 60} 175 233.75`
         },
         duration: 2,
         delay: 1
@@ -134,7 +132,7 @@ function closePopup(i, clickedSymbol) {
 
     timeline.to(svg, {
         attr: {
-            viewBox: `0 0 700 800`
+            viewBox: `0 0 700 935`
         },
         duration: 2,
     })

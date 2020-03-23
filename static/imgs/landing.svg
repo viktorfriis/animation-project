@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 700 800" style="enable-background:new 0 0 700 800;" xml:space="preserve">
+	 viewBox="0 0 700 935" style="enable-background:new 0 0 700 935;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#7AB2F4;}
 	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
@@ -11,312 +11,313 @@
 	.st5{opacity:0.47;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
 	.st6{opacity:0.59;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
 	.st7{stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
-	.st8{opacity:0.47;fill:none;stroke:#000000;stroke-width:1.9998;stroke-miterlimit:9.999;enable-background:new    ;}
+	.st8{opacity:0.47;fill:none;stroke:#000000;stroke-width:1.9998;stroke-miterlimit:9.9991;enable-background:new    ;}
 	.st9{opacity:0.59;fill:none;stroke:#000000;stroke-width:2.0001;stroke-miterlimit:10.0003;enable-background:new    ;}
 	.st10{fill:#C1BFBF;stroke:#000000;stroke-miterlimit:10;}
 	.st11{fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st12{fill:#EACACA;stroke:#000000;stroke-miterlimit:10;}
-	.st13{stroke:#000000;stroke-width:1;stroke-miterlimit:10.0006;}
-	.st14{fill:#020100;stroke:#020100;stroke-miterlimit:10;}
-	.st15{stroke:#020100;stroke-miterlimit:10;}
-	.st16{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st17{fill:#FCFCFC;}
-	.st18{stroke:#000000;stroke-width:1;stroke-miterlimit:10.001;}
-	.st19{fill:#020100;}
-	.st20{opacity:0.59;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:9.9999;enable-background:new    ;}
-	.st21{fill:#56B3CC;}
-	.st22{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
-	.st23{fill:#47ABE2;}
-	.st24{fill:#FFFFFF;}
-	.st25{fill:#E53042;}
-	.st26{fill:#326CBF;}
-	.st27{fill:#26C42A;}
+	.st13{fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:9.9995;}
+	.st14{stroke:#000000;stroke-width:1;stroke-miterlimit:10.0009;}
+	.st15{fill:#020100;stroke:#020100;stroke-miterlimit:10;}
+	.st16{stroke:#020100;stroke-miterlimit:10;}
+	.st17{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st18{fill:#FCFCFC;}
+	.st19{stroke:#000000;stroke-width:1;stroke-miterlimit:10.0015;}
+	.st20{fill:#020100;}
+	.st21{opacity:0.59;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:9.9999;enable-background:new    ;}
+	.st22{fill:#56B3CC;}
+	.st23{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st24{fill:#47ABE2;}
+	.st25{fill:#FFFFFF;}
+	.st26{fill:#E53042;}
+	.st27{fill:#326CBF;}
+	.st28{fill:#26C42A;}
 </style>
 <g id="jorden">
-	<ellipse class="st0" cx="350" cy="400" rx="108.1" ry="108.8"/>
-	<path class="st1" d="M311.8,337.1"/>
-	<path class="st2" d="M430.9,327.9l7.4,9.3l7.8,12.8l4.3,9.4l2.2,6l3.4,12.5l0.9,4.7l1.2,10.7V404c0,0-2.1-1.7-3.1,0.3s-6,5-7,4
-		c0,0-6,2-10-6s-21,3-21,3s-14,4-22-8s-3-20-5-29s-16-22-21-21s-6-26,17-22s27-4,27-4L430.9,327.9z"/>
-	<path class="st2" d="M300.1,303.5l6.8-3.2l4.8-2l8.5-2.8l2.6-0.7l10-2.1c0,0,13.5-1.7,13.5,5.3s3,11-3,16s-19,4-23,10s0,12,3,13
-		s3,2,0,8s-19,4-19,0s-6-11-6-17s5-8,6-12S300.1,303.5,300.1,303.5z"/>
-	<path class="st2" d="M340.2,338.9c0,0-9,4-6,8s10,6,11,4s6-5,5-7s-2,2-5,1S340.2,338.9,340.2,338.9z"/>
-	<path class="st2" d="M249.4,360.1l3.4-7.8l3.8-7.1l1.3-2.2l6.1-9c0,0,14.3,2.8,14.3,8.8s-1,13-4,17s-4,15-10,16s-12,2-14,0
-		s-4.5-4.8-4.5-4.8L249.4,360.1z"/>
-	<path class="st2" d="M348.2,420.9c0,0-9-7-5-15s3-7,10-10s13-12,11-14s13-9,12-1c6.3,9.8,9.1,21.4,8,33c-2,19,11,12,11,12
-		s15-2,24,1s3,14,3,14s-23,22-27,30c-4,8-21,26-26,16s-1-17,0-30s-4-26-10-26S348.2,420.9,348.2,420.9z"/>
-	<path class="st2" d="M245,426.2l1.4,5.1l2,6.1l2.8,7.1l2.9,6l2.6,4.8l2.5,4l3,4.5l5.9,7.5l6.7,7.2l3.4,3.2c0,0,15.1-3.7,18.1-9.7
+	<ellipse class="st0" cx="350" cy="467.5" rx="108.1" ry="108.8"/>
+	<path class="st1" d="M311.8,404.6"/>
+	<path class="st2" d="M430.9,395.4l7.4,9.3l7.8,12.8l4.3,9.4l2.2,6l3.4,12.5l0.9,4.7l1.2,10.7v10.7c0,0-2.1-1.7-3.1,0.3s-6,5-7,4
+		c0,0-6,2-10-6s-21,3-21,3s-14,4-22-8s-3-20-5-29s-16-22-21-21s-6-26,17-22s27-4,27-4L430.9,395.4z"/>
+	<path class="st2" d="M300.1,371l6.8-3.2l4.8-2l8.5-2.8l2.6-0.7l10-2.1c0,0,13.5-1.7,13.5,5.3s3,11-3,16s-19,4-23,10s0,12,3,13
+		s3,2,0,8s-19,4-19,0s-6-11-6-17s5-8,6-12S300.1,371,300.1,371z"/>
+	<path class="st2" d="M340.2,406.4c0,0-9,4-6,8s10,6,11,4s6-5,5-7s-2,2-5,1S340.2,406.4,340.2,406.4z"/>
+	<path class="st2" d="M249.4,427.6l3.4-7.8l3.8-7.1l1.3-2.2l6.1-9c0,0,14.3,2.8,14.3,8.8s-1,13-4,17s-4,15-10,16s-12,2-14,0
+		s-4.5-4.8-4.5-4.8L249.4,427.6z"/>
+	<path class="st2" d="M348.2,488.4c0,0-9-7-5-15s3-7,10-10s13-12,11-14s13-9,12-1c6.3,9.8,9.1,21.4,8,33c-2,19,11,12,11,12
+		s15-2,24,1s3,14,3,14s-23,22-27,30s-21,26-26,16s-1-17,0-30c1-13-4-26-10-26S348.2,488.4,348.2,488.4z"/>
+	<path class="st2" d="M245,493.7l1.4,5.1l2,6.1l2.8,7.1l2.9,6l2.6,4.8l2.5,4l3,4.5l5.9,7.5l6.7,7.2l3.4,3.2c0,0,15.1-3.7,18.1-9.7
 		s10-8,7-14s-3-8-6-8s-8-1-7-3s2-5,0-6s-5-2-5-7s3-4,2-11s-5-13-7-13s-6,1-6-4s-1-11-5-9c0,0-7-5-14,0c-3.5,2.4-6.9,5.1-10,8
-		c0,0-2,6-2,7s1,11.3,1,11.3L245,426.2z"/>
-	<path class="st2" d="M340.4,445.5c0,0-3.8-9.1-7.8-6.2c-4.1,2.9-6.3,9.8-4.3,10.9s4.8,6.1,6.9,5.2s-2-2.1-0.9-5
-		S340.4,445.5,340.4,445.5z"/>
+		c0,0-2,6-2,7s1,11.3,1,11.3L245,493.7z"/>
+	<path class="st2" d="M340.4,513c0,0-3.8-9.1-7.8-6.2c-4.1,2.9-6.3,9.8-4.3,10.9c2,1.1,4.8,6.1,6.9,5.2c2.1-0.9-2-2.1-0.9-5
+		C335.4,515,340.4,513,340.4,513z"/>
 </g>
 <g id="symbols">
 	<g id="arbejde">
 		<g id="line_x5F_5">
-			<circle class="st1" cx="238.3" cy="345.7" r="3"/>
-			<circle class="st1" cx="138.3" cy="293.7" r="3"/>
-			<polyline class="st1" points="235.3,345.7 171.1,345.7 137.9,312.5 137.9,296.7 			"/>
+			<circle class="st1" cx="238.3" cy="413.2" r="3"/>
+			<circle class="st1" cx="138.3" cy="361.2" r="3"/>
+			<polyline class="st1" points="235.3,413.2 171.1,413.2 137.9,380 137.9,364.2 			"/>
 		</g>
 		<g id="line_x5F_5_x5F_anim">
-			<circle id="circle_x5F_5_x5F_start" class="st3" cx="238.3" cy="345.7" r="3"/>
-			<circle id="circle_x5F_5_x5F_end" class="st3" cx="138.3" cy="293.7" r="3"/>
-			<polyline id="path_x5F_5" class="st3" points="235.3,345.7 171.1,345.7 137.9,312.5 137.9,296.7 			"/>
+			<circle id="circle_x5F_5_x5F_start" class="st3" cx="238.3" cy="413.2" r="3"/>
+			<circle id="circle_x5F_5_x5F_end" class="st3" cx="138.3" cy="361.2" r="3"/>
+			<polyline id="path_x5F_5" class="st3" points="235.3,413.2 171.1,413.2 137.9,380 137.9,364.2 			"/>
 		</g>
 		<g id="symbol_x5F_5">
-			<circle class="st4" cx="137.6" cy="232.8" r="50.5"/>
-			<circle class="st5" cx="137.4" cy="233.1" r="40.2"/>
-			<circle class="st6" cx="137.6" cy="232.3" r="30"/>
-			<path class="st7" d="M149.6,266.1h11.8c1.1,0,2,0.9,2,2v0.5c0,1.1-0.9,2-2,2h-11.8c-1.1,0-2-0.9-2-2v-0.5
-				C147.6,267,148.4,266.1,149.6,266.1z"/>
-			<rect x="153.1" y="237.8" class="st7" width="4.5" height="28.2"/>
-			<path class="st7" d="M140.1,233.3h30.4c0.3,0,0.6,0.3,0.6,0.6v3.3c0,0.3-0.3,0.6-0.6,0.6h-30.4c-0.3,0-0.6-0.3-0.6-0.6v-3.3
-				C139.6,233.6,139.9,233.3,140.1,233.3z"/>
-			<path class="st7" d="M167.4,208.3l3.2,0.6c0.3,0.1,0.6,0.4,0.5,0.7l-4.1,20.1c-0.1,0.3-0.4,0.6-0.7,0.5l-3.2-0.6
-				c-0.3-0.1-0.6-0.4-0.5-0.7l4.1-20.1C166.6,208.6,167.1,208.3,167.4,208.3z"/>
-			<path class="st7" d="M166.7,227.1v3.3c0,0.3-0.3,0.6-0.6,0.6h-21.4c-0.3,0-0.6-0.3-0.6-0.6v-3.3c0-0.3,0.3-0.6,0.6-0.6h21.4
-				C166.4,226.6,166.7,226.8,166.7,227.1z"/>
-			<circle class="st7" cx="120.4" cy="205.1" r="6.8"/>
-			<path class="st7" d="M114.7,216.3h6.8c1.2,0,2.2,1,2.2,2.2v20.4c0,1.2-1,2.2-2.2,2.2h-6.8c-1.2,0-2.2-1-2.2-2.2v-20.4
-				C112.6,217.3,113.6,216.3,114.7,216.3z"/>
-			<rect x="121.6" y="237.8" class="st7" width="11.3" height="3.4"/>
-			<path class="st7" d="M133.3,237.8h2.6c0.2,0,0.4,0.2,0.4,0.4v2.6c0,0.2-0.2,0.4-0.4,0.4h-2.6c-0.2,0-0.4-0.2-0.4-0.4v-2.6
-				C132.9,238,133.1,237.8,133.3,237.8z"/>
-			<path class="st7" d="M134.4,239h0.4c0.8,0,1.5,0.7,1.5,1.5v26.4c0,0.8-0.7,1.5-1.5,1.5h-0.4c-0.8,0-1.5-0.7-1.5-1.5v-26.4
-				C132.9,239.6,133.6,239,134.4,239z"/>
-			<path class="st7" d="M121.6,217.6l0.4-0.2c0.9-0.5,2-0.2,2.5,0.7l3.5,6.1c0.5,0.9,0.2,2-0.7,2.5l-0.4,0.2c-0.9,0.5-2,0.2-2.5-0.7
-				l-3.5-6.1C120.4,219.1,120.6,218.1,121.6,217.6z"/>
-			<path class="st7" d="M125.9,224.3h12.7c0.6,0,1,0.4,1,1v1.4c0,0.6-0.4,1-1,1h-12.7c-0.6,0-1-0.4-1-1v-1.4
-				C124.9,224.8,125.4,224.3,125.9,224.3z"/>
-			<path class="st7" d="M107.7,223.1h0.5c1.1,0,2,0.9,2,2v43.4c0,1.1-0.9,2-2,2h-0.5c-1.1,0-2-0.9-2-2v-43.3
-				C105.7,224.1,106.7,223.1,107.7,223.1z"/>
-			<path class="st7" d="M128.1,243.4h0.5c1.1,0,2,0.9,2,2v23.1c0,1.1-0.9,2-2,2h-0.5c-1.1,0-2-0.9-2-2v-23.1
-				C126.1,244.3,126.9,243.4,128.1,243.4z"/>
-			<rect x="110.3" y="243.4" class="st7" width="18.1" height="4.5"/>
+			<circle class="st4" cx="137.6" cy="300.3" r="50.5"/>
+			<circle class="st5" cx="137.4" cy="300.6" r="40.2"/>
+			<circle class="st6" cx="137.6" cy="299.8" r="30"/>
+			<path class="st7" d="M149.6,333.6h11.8c1.1,0,2,0.9,2,2v0.5c0,1.1-0.9,2-2,2h-11.8c-1.1,0-2-0.9-2-2v-0.5
+				C147.6,334.5,148.4,333.6,149.6,333.6z"/>
+			<rect x="153.1" y="305.3" class="st7" width="4.5" height="28.2"/>
+			<path class="st7" d="M140.1,300.8h30.4c0.3,0,0.6,0.3,0.6,0.6v3.3c0,0.3-0.3,0.6-0.6,0.6h-30.4c-0.3,0-0.6-0.3-0.6-0.6v-3.3
+				C139.6,301.1,139.9,300.8,140.1,300.8z"/>
+			<path class="st7" d="M167.4,275.8l3.2,0.6c0.3,0.1,0.6,0.4,0.5,0.7l-4.1,20.1c-0.1,0.3-0.4,0.6-0.7,0.5l-3.2-0.6
+				c-0.3-0.1-0.6-0.4-0.5-0.7l4.1-20.1C166.6,276.1,167.1,275.8,167.4,275.8z"/>
+			<path class="st7" d="M166.7,294.6v3.3c0,0.3-0.3,0.6-0.6,0.6h-21.4c-0.3,0-0.6-0.3-0.6-0.6v-3.3c0-0.3,0.3-0.6,0.6-0.6h21.4
+				C166.4,294.1,166.7,294.3,166.7,294.6z"/>
+			<circle class="st7" cx="120.4" cy="272.6" r="6.8"/>
+			<path class="st7" d="M114.7,283.8h6.8c1.2,0,2.2,1,2.2,2.2v20.4c0,1.2-1,2.2-2.2,2.2h-6.8c-1.2,0-2.2-1-2.2-2.2V286
+				C112.6,284.8,113.6,283.8,114.7,283.8z"/>
+			<rect x="121.6" y="305.3" class="st7" width="11.3" height="3.4"/>
+			<path class="st7" d="M133.3,305.3h2.6c0.2,0,0.4,0.2,0.4,0.4v2.6c0,0.2-0.2,0.4-0.4,0.4h-2.6c-0.2,0-0.4-0.2-0.4-0.4v-2.6
+				C132.9,305.5,133.1,305.3,133.3,305.3z"/>
+			<path class="st7" d="M134.4,306.5h0.4c0.8,0,1.5,0.7,1.5,1.5v26.4c0,0.8-0.7,1.5-1.5,1.5h-0.4c-0.8,0-1.5-0.7-1.5-1.5V308
+				C132.9,307.1,133.6,306.5,134.4,306.5z"/>
+			<path class="st7" d="M121.6,285.1l0.4-0.2c0.9-0.5,2-0.2,2.5,0.7l3.5,6.1c0.5,0.9,0.2,2-0.7,2.5l-0.4,0.2c-0.9,0.5-2,0.2-2.5-0.7
+				l-3.5-6.1C120.4,286.6,120.6,285.6,121.6,285.1z"/>
+			<path class="st7" d="M125.9,291.8h12.7c0.6,0,1,0.4,1,1v1.4c0,0.6-0.4,1-1,1h-12.7c-0.6,0-1-0.4-1-1v-1.4
+				C124.9,292.3,125.4,291.8,125.9,291.8z"/>
+			<path class="st7" d="M107.7,290.6h0.5c1.1,0,2,0.9,2,2V336c0,1.1-0.9,2-2,2h-0.5c-1.1,0-2-0.9-2-2v-43.3
+				C105.7,291.6,106.7,290.6,107.7,290.6z"/>
+			<path class="st7" d="M128.1,310.9h0.5c1.1,0,2,0.9,2,2V336c0,1.1-0.9,2-2,2h-0.5c-1.1,0-2-0.9-2-2v-23.1
+				C126.1,311.8,126.9,310.9,128.1,310.9z"/>
+			<rect x="110.3" y="310.9" class="st7" width="18.1" height="4.5"/>
 		</g>
 	</g>
 	<g id="kommunikation">
 		<g id="line_x5F_4">
-			<circle class="st1" cx="244.1" cy="472.2" r="3"/>
-			<circle class="st1" cx="120.2" cy="510.2" r="3"/>
-			<polyline class="st1" points="241.1,472.2 206.6,472.2 169.3,510.2 123.2,510.2 			"/>
+			<circle class="st1" cx="244.1" cy="539.7" r="3"/>
+			<circle class="st1" cx="120.2" cy="577.7" r="3"/>
+			<polyline class="st1" points="241.1,539.7 206.6,539.7 169.3,577.7 123.2,577.7 			"/>
 		</g>
 		<g id="line_x5F_4_x5F_anim">
-			<circle id="circle_x5F_4_x5F_start" class="st3" cx="244.1" cy="472.2" r="3"/>
-			<circle id="circle_x5F_4_x5F_end" class="st3" cx="120.2" cy="510.2" r="3"/>
-			<polyline id="path_x5F_4" class="st3" points="241.1,472.2 206.6,472.2 169.3,510.2 123.2,510.2 			"/>
+			<circle id="circle_x5F_4_x5F_start" class="st3" cx="244.1" cy="539.7" r="3"/>
+			<circle id="circle_x5F_4_x5F_end" class="st3" cx="120.2" cy="577.7" r="3"/>
+			<polyline id="path_x5F_4" class="st3" points="241.1,539.7 206.6,539.7 169.3,577.7 123.2,577.7 			"/>
 		</g>
 		<g id="symbol_x5F_4">
-			<circle class="st4" cx="60.2" cy="507.2" r="50.5"/>
+			<circle class="st4" cx="60.2" cy="574.7" r="50.5"/>
 			
-				<ellipse transform="matrix(6.652211e-02 -0.9978 0.9978 6.652211e-02 -450.4692 533.5016)" class="st8" cx="59.9" cy="507.5" rx="40.2" ry="40.2"/>
-			<ellipse class="st9" cx="60.2" cy="506.8" rx="30" ry="30"/>
-			<path class="st10" d="M55.2,488.5h46.4c1.5,0,2.7,1.2,2.7,2.7v29.1c0,1.5-1.2,2.7-2.7,2.7H55.2c-1.5,0-2.7-1.2-2.7-2.7v-29.1
-				C52.5,489.8,53.7,488.5,55.2,488.5z"/>
-			<line class="st11" x1="88.3" y1="523" x2="98.4" y2="533"/>
-			<line class="st11" x1="98.4" y1="523" x2="98.4" y2="533"/>
-			<path class="st12" d="M22.6,479.9h51c1.8,0,3.2,1.4,3.2,3.2V514c0,1.8-1.4,3.2-3.2,3.2h-51c-1.8,0-3.2-1.4-3.2-3.2v-30.9
-				C19.5,481.4,20.9,479.9,22.6,479.9z"/>
-			<circle class="st11" cx="35.2" cy="498.5" r="4.3"/>
-			<circle class="st11" cx="48.2" cy="498.5" r="4.3"/>
+				<ellipse transform="matrix(1.124140e-02 -0.9999 0.9999 1.124140e-02 -515.7314 628.4248)" class="st8" cx="59.9" cy="575" rx="40.2" ry="40.2"/>
+			<ellipse class="st9" cx="60.2" cy="574.3" rx="30" ry="30"/>
+			<path class="st10" d="M55.2,556h46.4c1.5,0,2.7,1.2,2.7,2.7v29.1c0,1.5-1.2,2.7-2.7,2.7H55.2c-1.5,0-2.7-1.2-2.7-2.7v-29.1
+				C52.5,557.3,53.7,556,55.2,556z"/>
+			<line class="st11" x1="88.3" y1="590.5" x2="98.4" y2="600.5"/>
+			<line class="st11" x1="98.4" y1="590.5" x2="98.4" y2="600.5"/>
+			<path class="st12" d="M22.6,547.4h51c1.8,0,3.2,1.4,3.2,3.2v30.9c0,1.8-1.4,3.2-3.2,3.2h-51c-1.8,0-3.2-1.4-3.2-3.2v-30.9
+				C19.5,548.9,20.9,547.4,22.6,547.4z"/>
+			<circle class="st11" cx="35.2" cy="566" r="4.3"/>
+			<circle class="st11" cx="48.2" cy="566" r="4.3"/>
 			
-				<ellipse transform="matrix(3.327788e-02 -0.9994 0.9994 3.327788e-02 -439.2538 542.8772)" class="st11" cx="61" cy="498.5" rx="4.3" ry="4.3"/>
-			<line class="st11" x1="26.6" y1="533" x2="26.6" y2="517.2"/>
-			<line class="st11" x1="41" y1="517.2" x2="26.6" y2="533"/>
-			<line class="st11" x1="26.6" y1="517.2" x2="41" y2="517.2"/>
+				<ellipse transform="matrix(6.652045e-02 -0.9978 0.9978 6.652045e-02 -507.8283 589.194)" class="st13" cx="61" cy="566" rx="4.3" ry="4.3"/>
+			<line class="st11" x1="26.6" y1="600.5" x2="26.6" y2="584.7"/>
+			<line class="st11" x1="41" y1="584.7" x2="26.6" y2="600.5"/>
+			<line class="st11" x1="26.6" y1="584.7" x2="41" y2="584.7"/>
 		</g>
 	</g>
 	<g id="esport">
 		<g id="line_x5F_3">
-			<line class="st1" x1="350.9" y1="521.9" x2="351.9" y2="663.1"/>
-			<circle class="st1" cx="350.9" cy="518.9" r="3"/>
-			<circle class="st1" cx="351.9" cy="666.2" r="3"/>
+			<line class="st1" x1="350.9" y1="589.4" x2="351.9" y2="730.6"/>
+			<circle class="st1" cx="350.9" cy="586.4" r="3"/>
+			<circle class="st1" cx="351.9" cy="733.7" r="3"/>
 		</g>
 		<g id="line_x5F_3_x5F_anim">
-			<line id="path_x5F_3" class="st3" x1="350.9" y1="521.9" x2="351.9" y2="663.1"/>
-			<circle id="circle_x5F_3_x5F_start" class="st3" cx="350.9" cy="518.9" r="3"/>
-			<circle id="circle_x5F_3_x5F_end" class="st3" cx="351.9" cy="666.2" r="3"/>
+			<line id="path_x5F_3" class="st3" x1="350.9" y1="589.4" x2="351.9" y2="730.6"/>
+			<circle id="circle_x5F_3_x5F_start" class="st3" cx="350.9" cy="586.4" r="3"/>
+			<circle id="circle_x5F_3_x5F_end" class="st3" cx="351.9" cy="733.7" r="3"/>
 		</g>
 		<g id="symbol_x5F_3">
-			<circle class="st4" cx="351.4" cy="725.9" r="50.5"/>
-			<circle class="st5" cx="351.2" cy="726.2" r="40.2"/>
-			<circle class="st6" cx="351.3" cy="725.3" r="30"/>
+			<circle class="st4" cx="351.4" cy="793.4" r="50.5"/>
+			<circle class="st5" cx="351.2" cy="793.7" r="40.2"/>
+			<circle class="st6" cx="351.3" cy="792.8" r="30"/>
 			
-				<ellipse transform="matrix(0.154 -0.9881 0.9881 0.154 -440.7487 931.5665)" class="st13" cx="323.6" cy="723.2" rx="22" ry="11.3"/>
-			<rect x="330" y="703.2" class="st14" width="44" height="27"/>
-			<ellipse class="st15" cx="338.4" cy="726.7" rx="6" ry="6.9"/>
-			<rect x="337.3" y="703.8" class="st16" width="15.6" height="13.8"/>
-			<path class="st17" d="M337.7,720.9h1.6c2.2,0,4,1.8,4,4v1.2c0,2.2-1.8,4-4,4h-1.6c-2.2,0-4-1.8-4-4v-1.2
-				C333.7,722.8,335.4,720.9,337.7,720.9z"/>
-			<ellipse class="st17" cx="323.6" cy="708.9" rx="2.4" ry="2.3"/>
-			<ellipse class="st17" cx="318.8" cy="714.7" rx="2.4" ry="2.3"/>
-			<ellipse class="st17" cx="323.6" cy="719.3" rx="2.4" ry="2.3"/>
-			<ellipse class="st17" cx="328.3" cy="714.7" rx="2.4" ry="2.3"/>
+				<ellipse transform="matrix(0.154 -0.9881 0.9881 0.154 -507.424 988.746)" class="st14" cx="323.7" cy="790.7" rx="22" ry="11.3"/>
+			<rect x="330" y="770.7" class="st15" width="44" height="27"/>
+			<ellipse class="st16" cx="338.4" cy="794.2" rx="6" ry="6.9"/>
+			<rect x="337.3" y="771.3" class="st17" width="15.6" height="13.8"/>
+			<path class="st18" d="M337.7,788.4h1.6c2.2,0,4,1.8,4,4v1.2c0,2.2-1.8,4-4,4h-1.6c-2.2,0-4-1.8-4-4v-1.2
+				C333.7,790.3,335.4,788.4,337.7,788.4z"/>
+			<ellipse class="st18" cx="323.6" cy="776.4" rx="2.4" ry="2.3"/>
+			<ellipse class="st18" cx="318.8" cy="782.2" rx="2.4" ry="2.3"/>
+			<ellipse class="st18" cx="323.6" cy="786.8" rx="2.4" ry="2.3"/>
+			<ellipse class="st18" cx="328.3" cy="782.2" rx="2.4" ry="2.3"/>
 			
-				<ellipse transform="matrix(0.9897 -0.1435 0.1435 0.9897 -99.8873 62.134)" class="st18" cx="380.8" cy="723.6" rx="10.9" ry="22"/>
-			<rect x="353.3" y="703.3" class="st14" width="21.2" height="27"/>
-			<ellipse class="st15" cx="366.6" cy="726.9" rx="5.7" ry="6.9"/>
-			<rect x="352.8" y="703.9" class="st16" width="14.9" height="13.8"/>
-			<path class="st17" d="M367,730.3h-1.2c-2.2,0-4-1.8-4-4v-1.2c0-2.2,1.8-4,4-4h1.2c2.2,0,4,1.8,4,4v1.2
-				C371,728.4,369.3,730.3,367,730.3z"/>
-			<circle class="st17" cx="380.8" cy="709.2" r="2.3"/>
-			<circle class="st17" cx="385.4" cy="714.9" r="2.3"/>
-			<circle class="st17" cx="380.8" cy="719.3" r="2.3"/>
-			<circle class="st17" cx="376.3" cy="714.9" r="2.3"/>
-			<rect x="344.8" y="728.3" class="st19" width="16" height="3.4"/>
-			<rect x="351.7" y="703.2" class="st19" width="2.3" height="16"/>
+				<ellipse transform="matrix(0.9897 -0.1435 0.1435 0.9897 -109.5814 62.8332)" class="st19" cx="380.8" cy="791.1" rx="10.9" ry="22"/>
+			<rect x="353.3" y="770.8" class="st15" width="21.2" height="27"/>
+			<ellipse class="st16" cx="366.6" cy="794.4" rx="5.7" ry="6.9"/>
+			<rect x="352.8" y="771.4" class="st17" width="14.9" height="13.8"/>
+			<path class="st18" d="M367,797.8h-1.2c-2.2,0-4-1.8-4-4v-1.2c0-2.2,1.8-4,4-4h1.2c2.2,0,4,1.8,4,4v1.2
+				C371,795.9,369.3,797.8,367,797.8z"/>
+			<circle class="st18" cx="380.8" cy="776.7" r="2.3"/>
+			<circle class="st18" cx="385.4" cy="782.4" r="2.3"/>
+			<circle class="st18" cx="380.8" cy="786.8" r="2.3"/>
+			<circle class="st18" cx="376.3" cy="782.4" r="2.3"/>
+			<rect x="344.8" y="795.8" class="st20" width="16" height="3.4"/>
+			<rect x="351.7" y="770.7" class="st20" width="2.3" height="16"/>
 		</g>
 	</g>
 	<g id="internet">
 		<g id="line_x5F_2">
-			<circle class="st1" cx="412.1" cy="507.5" r="3"/>
-			<circle class="st1" cx="444.9" cy="606.5" r="3"/>
-			<polyline class="st1" points="441.9,606.5 412.1,566.7 412.1,510.5 			"/>
+			<circle class="st1" cx="412.1" cy="575" r="3"/>
+			<circle class="st1" cx="444.9" cy="674" r="3"/>
+			<polyline class="st1" points="441.9,674 412.1,634.2 412.1,578 			"/>
 		</g>
 		<g id="line_x5F_2_x5F_anim">
-			<circle id="circle_x5F_2_x5F_start" class="st3" cx="412.1" cy="507.5" r="3"/>
-			<circle id="circle_x5F_2_x5F_end" class="st3" cx="444.9" cy="606.5" r="3"/>
-			<polyline id="path_x5F_2" class="st3" points="412.1,510.5 412.1,566.7 441.9,606.5 			"/>
+			<circle id="circle_x5F_2_x5F_start" class="st3" cx="412.1" cy="575" r="3"/>
+			<circle id="circle_x5F_2_x5F_end" class="st3" cx="444.9" cy="674" r="3"/>
+			<polyline id="path_x5F_2" class="st3" points="412.1,578 412.1,634.2 441.9,674 			"/>
 		</g>
 		<g id="symbol_x5F_2">
-			<circle class="st4" cx="502.8" cy="609.2" r="50.5"/>
-			<circle class="st5" cx="502.5" cy="609.5" r="40.2"/>
-			<ellipse class="st20" cx="502.7" cy="608.6" rx="30" ry="30"/>
-			<ellipse class="st21" cx="502.9" cy="609" rx="32" ry="32.5"/>
-			<circle class="st11" cx="502.9" cy="609.7" r="21.1"/>
-			<rect x="481.8" y="607.8" class="st22" width="42.2" height="2.4"/>
-			<rect x="502.2" y="588.5" class="st22" width="2.4" height="42.2"/>
-			<path class="st22" d="M488.6,594c0,0,8.6,5.4,14.2,5.4"/>
-			<path class="st22" d="M487.5,595.3c0,0,9.2,5.6,15.2,5.8"/>
-			<path class="st22" d="M516.8,594c0,0-8.6,5.5-14.2,5.5"/>
-			<path class="st22" d="M518,595.3c0,0-9.2,5.7-15.3,5.9"/>
-			<ellipse class="st22" cx="502.9" cy="609.7" rx="9" ry="21.1"/>
-			<path class="st22" d="M518.5,623c0,0-9.3-5.1-15.1-4.9"/>
-			<path class="st22" d="M519.8,621.7c0,0-9.9-5.3-16.2-5.2"/>
-			<path class="st22" d="M488.5,624c0,0,9.1-5.8,15.1-6"/>
-			<path class="st22" d="M487.1,622.8c0,0,9.8-6.1,16.3-6.4"/>
+			<circle class="st4" cx="502.8" cy="676.7" r="50.5"/>
+			<circle class="st5" cx="502.5" cy="677" r="40.2"/>
+			<ellipse class="st21" cx="502.7" cy="676.1" rx="30" ry="30"/>
+			<ellipse class="st22" cx="502.9" cy="676.5" rx="32" ry="32.5"/>
+			<circle class="st11" cx="502.9" cy="677.2" r="21.1"/>
+			<rect x="481.8" y="675.3" class="st23" width="42.2" height="2.4"/>
+			<rect x="502.2" y="656" class="st23" width="2.4" height="42.2"/>
+			<path class="st23" d="M488.6,661.5c0,0,8.6,5.4,14.2,5.4"/>
+			<path class="st23" d="M487.5,662.8c0,0,9.2,5.6,15.2,5.8"/>
+			<path class="st23" d="M516.8,661.5c0,0-8.6,5.5-14.2,5.5"/>
+			<path class="st23" d="M518,662.8c0,0-9.2,5.7-15.3,5.9"/>
+			<ellipse class="st23" cx="502.9" cy="677.2" rx="9" ry="21.1"/>
+			<path class="st23" d="M518.5,690.5c0,0-9.3-5.1-15.1-4.9"/>
+			<path class="st23" d="M519.8,689.2c0,0-9.9-5.3-16.2-5.2"/>
+			<path class="st23" d="M488.5,691.5c0,0,9.1-5.8,15.1-6"/>
+			<path class="st23" d="M487.1,690.3c0,0,9.8-6.1,16.3-6.4"/>
 		</g>
 	</g>
 	<g id="ehandel">
 		<g id="line_x5F_1">
-			<circle class="st1" cx="464" cy="430.2" r="3"/>
-			<circle class="st1" cx="565" cy="408.2" r="3"/>
-			<polyline class="st1" points="562,408.2 491.1,408.2 467,430.2 			"/>
+			<circle class="st1" cx="464" cy="497.7" r="3"/>
+			<circle class="st1" cx="565" cy="475.7" r="3"/>
+			<polyline class="st1" points="562,475.7 491.1,475.7 467,497.7 			"/>
 		</g>
 		<g id="line_x5F_1_x5F_anim">
-			<circle id="circle_x5F_1_x5F_start" class="st3" cx="464" cy="430.2" r="3"/>
-			<circle id="circle_x5F_1_x5F_end" class="st3" cx="565" cy="408.2" r="3"/>
-			<polyline id="path_x5F_1" class="st3" points="467,430.2 491.1,408.2 562,408.2 			"/>
+			<circle id="circle_x5F_1_x5F_start" class="st3" cx="464" cy="497.7" r="3"/>
+			<circle id="circle_x5F_1_x5F_end" class="st3" cx="565" cy="475.7" r="3"/>
+			<polyline id="path_x5F_1" class="st3" points="467,497.7 491.1,475.7 562,475.7 			"/>
 		</g>
 		<g id="symbol_x5F_1">
-			<circle class="st4" cx="579.7" cy="350" r="50.5"/>
-			<circle class="st5" cx="579.3" cy="350.2" r="40.2"/>
-			<circle class="st6" cx="579.5" cy="349.5" r="30"/>
-			<path class="st7" d="M605.3,330.2l2.3,0.2c0.6,0,1,0.5,1,1.1l-1.7,22.7c0,0.6-0.5,1-1.1,1l-2.3-0.2c-0.6,0-1-0.5-1-1.1l1.7-22.7
-				C604.3,330.6,604.8,330.2,605.3,330.2z"/>
-			<path class="st7" d="M568.2,354.4l37.5-3.4c0.5,0,1,0.3,1,0.9l0.2,2.6c0,0.5-0.3,1-0.9,1l-37.5,3.4c-0.5,0-1-0.3-1-0.9l-0.2-2.6
-				C567.2,354.9,567.7,354.5,568.2,354.4z"/>
-			<path class="st7" d="M559.2,328.8H607c0.5,0,0.9,0.4,0.9,0.9v2.6c0,0.5-0.4,0.9-0.9,0.9h-47.7c-0.5,0-0.9-0.4-0.9-0.9v-2.5
-				C558.2,329.1,558.7,328.8,559.2,328.8z"/>
-			<path class="st7" d="M607.2,328.8c0,0,1.8,0.3,1.8,1.5c-0.1,1-0.2,2-0.4,3l-3.7-3L607.2,328.8z"/>
-			<path class="st7" d="M553.8,316.8l16.6,39.8c0.2,0.5,0,1-0.5,1.2l-2.4,1c-0.5,0.2-1,0-1.2-0.5l-16.6-39.8c-0.2-0.5,0-1,0.5-1.2
-				l2.4-1C553,316,553.5,316.2,553.8,316.8z"/>
-			<path class="st7" d="M543.2,312.5l9.5,3.7c1,0.4,1.5,1.5,1.1,2.6l-0.2,0.5c-0.4,1-1.5,1.5-2.6,1.1l-9.5-3.7
-				c-1-0.4-1.5-1.5-1.1-2.6l0.2-0.5C541,312.5,542.2,312,543.2,312.5z"/>
-			<path class="st7" d="M566,356.6l1,1c0.4,0.4,0.4,1,0,1.4l-7.8,7.8c-0.4,0.4-1,0.4-1.4,0l-1-1c-0.4-0.4-0.4-1,0-1.4l7.8-7.8
-				C565,356.2,565.7,356.2,566,356.6z"/>
-			<path class="st7" d="M607.5,369.4v0.7c0,0.7-0.6,1.3-1.3,1.3h-42c-0.7,0-1.3-0.6-1.3-1.3v-0.7c0-0.7,0.6-1.3,1.3-1.3h42
-				C606.8,368,607.5,368.6,607.5,369.4z"/>
-			<path class="st7" d="M556.8,364.5l0.3-0.3c0.5-0.6,1.5-0.7,2.1-0.2l5.6,4.8c0.6,0.5,0.7,1.5,0.2,2.1l-0.3,0.3
-				c-0.5,0.6-1.5,0.7-2.1,0.2l-5.6-4.8C556.5,366,556.3,365,556.8,364.5z"/>
-			<circle class="st11" cx="563.3" cy="375.9" r="3.9"/>
-			<circle cx="563.3" cy="375.9" r="2.2"/>
-			<circle class="st11" cx="600.5" cy="375.9" r="3.9"/>
-			<circle cx="600.5" cy="375.9" r="2.2"/>
-			<rect x="574" y="333.6" class="st11" width="1.1" height="20.3"/>
-			<rect x="582" y="333.6" class="st11" width="1.1" height="20.3"/>
-			<rect x="589.8" y="333.6" class="st11" width="1.1" height="20.3"/>
-			<rect x="597.8" y="333.6" class="st11" width="1.1" height="20.3"/>
-			<rect x="566.2" y="333.6" class="st11" width="1.1" height="16.9"/>
-			<rect x="562.8" y="339.2" class="st11" width="40.6" height="1.1"/>
-			<rect x="565" y="347.1" class="st11" width="38.3" height="1.1"/>
+			<circle class="st4" cx="579.7" cy="417.5" r="50.5"/>
+			<circle class="st5" cx="579.3" cy="417.7" r="40.2"/>
+			<circle class="st6" cx="579.5" cy="417" r="30"/>
+			<path class="st7" d="M605.3,397.7l2.3,0.2c0.6,0,1,0.5,1,1.1l-1.7,22.7c0,0.6-0.5,1-1.1,1l-2.3-0.2c-0.6,0-1-0.5-1-1.1l1.7-22.7
+				C604.3,398.1,604.8,397.7,605.3,397.7z"/>
+			<path class="st7" d="M568.2,421.9l37.5-3.4c0.5,0,1,0.3,1,0.9l0.2,2.6c0,0.5-0.3,1-0.9,1l-37.5,3.4c-0.5,0-1-0.3-1-0.9l-0.2-2.6
+				C567.2,422.4,567.7,422,568.2,421.9z"/>
+			<path class="st7" d="M559.2,396.3H607c0.5,0,0.9,0.4,0.9,0.9v2.6c0,0.5-0.4,0.9-0.9,0.9h-47.7c-0.5,0-0.9-0.4-0.9-0.9v-2.5
+				C558.2,396.6,558.7,396.3,559.2,396.3z"/>
+			<path class="st7" d="M607.2,396.3c0,0,1.8,0.3,1.8,1.5c-0.1,1-0.2,2-0.4,3l-3.7-3L607.2,396.3z"/>
+			<path class="st7" d="M553.8,384.3l16.6,39.8c0.2,0.5,0,1-0.5,1.2l-2.4,1c-0.5,0.2-1,0-1.2-0.5L549.7,386c-0.2-0.5,0-1,0.5-1.2
+				l2.4-1C553,383.5,553.5,383.7,553.8,384.3z"/>
+			<path class="st7" d="M543.2,380l9.5,3.7c1,0.4,1.5,1.5,1.1,2.6l-0.2,0.5c-0.4,1-1.5,1.5-2.6,1.1l-9.5-3.7c-1-0.4-1.5-1.5-1.1-2.6
+				l0.2-0.5C541,380,542.2,379.5,543.2,380z"/>
+			<path class="st7" d="M566,424.1l1,1c0.4,0.4,0.4,1,0,1.4l-7.8,7.8c-0.4,0.4-1,0.4-1.4,0l-1-1c-0.4-0.4-0.4-1,0-1.4l7.8-7.8
+				C565,423.7,565.7,423.7,566,424.1z"/>
+			<path class="st7" d="M607.5,436.9v0.7c0,0.7-0.6,1.3-1.3,1.3h-42c-0.7,0-1.3-0.6-1.3-1.3v-0.7c0-0.7,0.6-1.3,1.3-1.3h42
+				C606.8,435.5,607.5,436.1,607.5,436.9z"/>
+			<path class="st7" d="M556.8,432l0.3-0.3c0.5-0.6,1.5-0.7,2.1-0.2l5.6,4.8c0.6,0.5,0.7,1.5,0.2,2.1l-0.3,0.3
+				c-0.5,0.6-1.5,0.7-2.1,0.2l-5.6-4.8C556.5,433.5,556.3,432.5,556.8,432z"/>
+			<circle class="st11" cx="563.3" cy="443.4" r="3.9"/>
+			<circle cx="563.3" cy="443.4" r="2.2"/>
+			<circle class="st11" cx="600.5" cy="443.4" r="3.9"/>
+			<circle cx="600.5" cy="443.4" r="2.2"/>
+			<rect x="574" y="401.1" class="st11" width="1.1" height="20.3"/>
+			<rect x="582" y="401.1" class="st11" width="1.1" height="20.3"/>
+			<rect x="589.8" y="401.1" class="st11" width="1.1" height="20.3"/>
+			<rect x="597.8" y="401.1" class="st11" width="1.1" height="20.3"/>
+			<rect x="566.2" y="401.1" class="st11" width="1.1" height="16.9"/>
+			<rect x="562.8" y="406.7" class="st11" width="40.6" height="1.1"/>
+			<rect x="565" y="414.6" class="st11" width="38.3" height="1.1"/>
 		</g>
 	</g>
 	<g id="programmering">
 		<g id="line_x5F_0">
-			<circle class="st1" cx="311" cy="137.7" r="3"/>
-			<circle class="st1" cx="351.4" cy="279.3" r="3"/>
-			<polyline class="st1" points="351.4,275.9 351.4,222.3 311,181.9 311,140.7 			"/>
+			<circle class="st1" cx="311" cy="205.2" r="3"/>
+			<circle class="st1" cx="351.4" cy="346.8" r="3"/>
+			<polyline class="st1" points="351.4,343.4 351.4,289.8 311,249.4 311,208.2 			"/>
 		</g>
 		<g id="line_x5F_0_x5F_anim">
-			<circle id="circle_x5F_0_x5F_end" class="st3" cx="311" cy="137.7" r="3"/>
-			<circle id="circle_x5F_0_x5F_start" class="st3" cx="351.4" cy="279.3" r="3"/>
-			<polyline id="path_x5F_0" class="st3" points="351.4,275.9 351.4,222.3 311,181.9 311,140.7 			"/>
+			<circle id="circle_x5F_0_x5F_end" class="st3" cx="311" cy="205.2" r="3"/>
+			<circle id="circle_x5F_0_x5F_start" class="st3" cx="351.4" cy="346.8" r="3"/>
+			<polyline id="path_x5F_0" class="st3" points="351.4,343.4 351.4,289.8 311,249.4 311,208.2 			"/>
 		</g>
 		<g id="symbol_x5F_0">
-			<circle class="st4" cx="311.5" cy="79.4" r="50.5"/>
-			<circle class="st5" cx="311.2" cy="79.7" r="40.2"/>
-			<circle class="st6" cx="311.3" cy="78.9" r="30"/>
-			<path class="st23" d="M279.4,57.2h46.7c0.8,0,1.5,0.7,1.5,1.5v33.1c0,0.8-0.7,1.5-1.5,1.5h-46.7c-0.8,0-1.5-0.7-1.5-1.5V58.7
-				C277.8,57.9,278.5,57.2,279.4,57.2z"/>
-			<rect x="279.6" y="59.2" width="46.2" height="32.4"/>
-			<path class="st23" d="M299.8,70.9h46.7c0.8,0,1.5,0.7,1.5,1.5v33.1c0,0.8-0.7,1.5-1.5,1.5h-46.7c-0.8,0-1.5-0.7-1.5-1.5V72.4
-				C298.3,71.6,298.9,70.9,299.8,70.9z"/>
-			<rect x="300" y="72.9" width="46.2" height="32.4"/>
-			<polygon class="st24" points="324.3,79.8 326.6,79.8 322,99.5 319.6,99.5 			"/>
-			<polygon class="st24" points="317.3,82.1 317.3,86.8 308.1,89.1 317.3,92.6 317.3,97.2 304.6,91.4 304.6,87.9 			"/>
-			<polygon class="st24" points="328.9,82 328.9,86.6 338.1,88.9 328.9,92.4 328.9,97 341.6,91.3 341.6,87.8 			"/>
-			<rect x="280.9" y="60.7" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="63.1" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="65.4" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="67.7" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="70" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="72.3" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="74.6" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="76.9" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="79.2" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="81.6" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="83.9" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="86.2" class="st24" width="1.2" height="1.2"/>
-			<rect x="280.9" y="88.5" class="st24" width="1.2" height="1.2"/>
-			<rect x="284.4" y="60.7" class="st25" width="3.5" height="1.2"/>
-			<rect x="284.4" y="63.1" class="st26" width="3.5" height="1.2"/>
-			<rect x="284.4" y="86.2" class="st25" width="3.5" height="1.2"/>
-			<rect x="291.3" y="70" class="st26" width="6.9" height="1.2"/>
-			<rect x="284.4" y="83.9" class="st26" width="3.5" height="1.2"/>
-			<rect x="287.8" y="67.7" class="st26" width="9.2" height="1.2"/>
-			<rect x="289" y="78.1" class="st26" width="9.2" height="1.2"/>
-			<rect x="285.5" y="65.4" class="st25" width="5.8" height="1.2"/>
-			<rect x="287.8" y="72.3" class="st25" width="3.5" height="1.2"/>
-			<rect x="293.6" y="74.6" class="st25" width="3.5" height="1.2"/>
-			<rect x="285.5" y="80.4" class="st25" width="4.6" height="1.2"/>
-			<rect x="292.5" y="72.3" class="st27" width="5.8" height="1.2"/>
-			<rect x="291.3" y="80.4" class="st27" width="5.8" height="1.2"/>
-			<rect x="292.5" y="65.4" class="st27" width="8.1" height="1.2"/>
-			<rect x="298.3" y="67.7" class="st27" width="12.7" height="1.2"/>
+			<circle class="st4" cx="311.5" cy="146.9" r="50.5"/>
+			<circle class="st5" cx="311.2" cy="147.2" r="40.2"/>
+			<circle class="st6" cx="311.3" cy="146.4" r="30"/>
+			<path class="st24" d="M279.4,124.7h46.7c0.8,0,1.5,0.7,1.5,1.5v33.1c0,0.8-0.7,1.5-1.5,1.5h-46.7c-0.8,0-1.5-0.7-1.5-1.5v-33.1
+				C277.8,125.4,278.5,124.7,279.4,124.7z"/>
+			<rect x="279.6" y="126.7" width="46.2" height="32.4"/>
+			<path class="st24" d="M299.8,138.4h46.7c0.8,0,1.5,0.7,1.5,1.5V173c0,0.8-0.7,1.5-1.5,1.5h-46.7c-0.8,0-1.5-0.7-1.5-1.5v-33.1
+				C298.3,139.1,298.9,138.4,299.8,138.4z"/>
+			<rect x="300" y="140.4" width="46.2" height="32.4"/>
+			<polygon class="st25" points="324.3,147.3 326.6,147.3 322,167 319.6,167 			"/>
+			<polygon class="st25" points="317.3,149.6 317.3,154.3 308.1,156.6 317.3,160.1 317.3,164.7 304.6,158.9 304.6,155.4 			"/>
+			<polygon class="st25" points="328.9,149.5 328.9,154.1 338.1,156.4 328.9,159.9 328.9,164.5 341.6,158.8 341.6,155.3 			"/>
+			<rect x="280.9" y="128.2" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="130.6" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="132.9" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="135.2" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="137.5" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="139.8" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="142.1" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="144.4" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="146.7" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="149.1" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="151.4" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="153.7" class="st25" width="1.2" height="1.2"/>
+			<rect x="280.9" y="156" class="st25" width="1.2" height="1.2"/>
+			<rect x="284.4" y="128.2" class="st26" width="3.5" height="1.2"/>
+			<rect x="284.4" y="130.6" class="st27" width="3.5" height="1.2"/>
+			<rect x="284.4" y="153.7" class="st26" width="3.5" height="1.2"/>
+			<rect x="291.3" y="137.5" class="st27" width="6.9" height="1.2"/>
+			<rect x="284.4" y="151.4" class="st27" width="3.5" height="1.2"/>
+			<rect x="287.8" y="135.2" class="st27" width="9.2" height="1.2"/>
+			<rect x="289" y="145.6" class="st27" width="9.2" height="1.2"/>
+			<rect x="285.5" y="132.9" class="st26" width="5.8" height="1.2"/>
+			<rect x="287.8" y="139.8" class="st26" width="3.5" height="1.2"/>
+			<rect x="293.6" y="142.1" class="st26" width="3.5" height="1.2"/>
+			<rect x="285.5" y="147.9" class="st26" width="4.6" height="1.2"/>
+			<rect x="292.5" y="139.8" class="st28" width="5.8" height="1.2"/>
+			<rect x="291.3" y="147.9" class="st28" width="5.8" height="1.2"/>
+			<rect x="292.5" y="132.9" class="st28" width="8.1" height="1.2"/>
+			<rect x="298.3" y="135.2" class="st28" width="12.7" height="1.2"/>
 		</g>
 	</g>
 </g>
 <g id="pile">
-	<line class="st1" x1="434.2" y1="311.4" x2="506.2" y2="205.4"/>
-	<line class="st1" x1="506.2" y1="205.4" x2="557.2" y2="205.4"/>
-	<line class="st1" x1="556.2" y1="163.4" x2="556.2" y2="206.4"/>
-	<circle class="st1" cx="556.2" cy="160.4" r="3"/>
-	<circle class="st1" cx="432.2" cy="313.4" r="3"/>
-	<polyline class="st1" points="450.9,472.6 480.2,489.9 599.2,489.9 	"/>
-	<line class="st1" x1="599.2" y1="489.9" x2="645.2" y2="539.8"/>
-	<line class="st1" x1="645.2" y1="539.8" x2="684.2" y2="539.8"/>
-	<circle class="st1" cx="687.2" cy="539.8" r="3"/>
-	<circle class="st1" cx="447.9" cy="472.6" r="3"/>
-	<line class="st1" x1="297.7" y1="512.5" x2="210.7" y2="598.5"/>
-	<line class="st1" x1="210.7" y1="598.5" x2="91.7" y2="598.5"/>
-	<line class="st1" x1="92.7" y1="598.5" x2="92.7" y2="639.5"/>
-	<circle class="st1" cx="92.7" cy="642.5" r="3"/>
-	<circle class="st1" cx="299.7" cy="510.5" r="3"/>
-	<line class="st1" x1="226.2" y1="424.9" x2="112.2" y2="424.9"/>
-	<line class="st1" x1="112.2" y1="424.9" x2="112.2" y2="390.9"/>
-	<line class="st1" x1="19.2" y1="390.9" x2="112.2" y2="390.9"/>
-	<circle class="st1" cx="20.2" cy="408.9" r="3"/>
-	<line class="st1" x1="20.2" y1="390.9" x2="20.2" y2="405.9"/>
-	<circle class="st1" cx="229.2" cy="424.9" r="3"/>
+	<line class="st1" x1="434.2" y1="378.9" x2="506.2" y2="272.9"/>
+	<line class="st1" x1="506.2" y1="272.9" x2="557.2" y2="272.9"/>
+	<line class="st1" x1="556.2" y1="230.9" x2="556.2" y2="273.9"/>
+	<circle class="st1" cx="556.2" cy="227.9" r="3"/>
+	<circle class="st1" cx="432.2" cy="380.9" r="3"/>
+	<polyline class="st1" points="450.9,540.1 480.2,557.4 599.2,557.4 	"/>
+	<line class="st1" x1="599.2" y1="557.4" x2="645.2" y2="607.3"/>
+	<line class="st1" x1="645.2" y1="607.3" x2="684.2" y2="607.3"/>
+	<circle class="st1" cx="687.2" cy="607.3" r="3"/>
+	<circle class="st1" cx="447.9" cy="540.1" r="3"/>
+	<line class="st1" x1="297.7" y1="580" x2="210.7" y2="666"/>
+	<line class="st1" x1="210.7" y1="666" x2="91.7" y2="666"/>
+	<line class="st1" x1="92.7" y1="666" x2="92.7" y2="707"/>
+	<circle class="st1" cx="92.7" cy="710" r="3"/>
+	<circle class="st1" cx="299.7" cy="578" r="3"/>
+	<line class="st1" x1="226.2" y1="492.4" x2="112.2" y2="492.4"/>
+	<line class="st1" x1="112.2" y1="492.4" x2="112.2" y2="458.4"/>
+	<line class="st1" x1="19.2" y1="458.4" x2="112.2" y2="458.4"/>
+	<circle class="st1" cx="20.2" cy="476.4" r="3"/>
+	<line class="st1" x1="20.2" y1="458.4" x2="20.2" y2="473.4"/>
+	<circle class="st1" cx="229.2" cy="492.4" r="3"/>
 </g>
 </svg>
