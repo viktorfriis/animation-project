@@ -11,7 +11,7 @@ function start() {
 }
 
 function fetchSVGS() {
-    fetch('imgs/landing.svg')
+    fetch('svgs/landing.svg')
         .then(r => r.text())
         .then(mySVG => {
             document.querySelector("#landing").innerHTML = mySVG;
@@ -55,7 +55,6 @@ function SVGInteractive() {
 }
 
 function zoomSymbol() {
-    console.log("zoom");
     const i = Number(this.dataset.number);
     const svg = document.querySelector("svg");
     console.log(i);
@@ -65,11 +64,13 @@ function zoomSymbol() {
 
     const clickedSymbol = myJSON[i];
 
+    //Info i infoboksen bliver opdateret, afhængig af hvilket symbol der er klikket på
     document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
 
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
 
+    //Starter med at animere "ledningen" i en timeline
     timelineLine.to(`#circle_x5F_${i}_x5F_start`, {
         strokeDashoffset: 0,
         duration: 1
@@ -85,6 +86,7 @@ function zoomSymbol() {
         duration: 1
     })
 
+    //Så bliver der zoomet ind på det valgte symbol, ved at sætte koordinatet i viewboxen samt gøre viewboxen 4 gange mindre
     timeline.to(svg, {
         attr: {
             viewBox: `${symbolBox.x - 40} ${symbolBox.y - 60} 175 233.75`
@@ -93,20 +95,21 @@ function zoomSymbol() {
         delay: 1
     })
 
+    //Når der er blevet zoomet ind, åbner infoskærmen
     timeline.to("#infoscreen", {
         maxHeight: "80vh",
         border: "10px solid #00FF00",
         padding: "50px",
-        duration: 1,
-        delay: 1
+        duration: 1
     })
 
+    //Når infoskærmen er åbnet, bliver teksten synlig
     timeline.to(".infotext", {
         opacity: "1",
         duration: 0.3
     })
 
-
+    //Luk knap gøres klikbar
     document.querySelector("#close").addEventListener("click", () => {
         closePopup(i, clickedSymbol);
     });
@@ -136,7 +139,6 @@ function closePopup(i, clickedSymbol) {
         },
         duration: 2,
     })
-
 
     timelineLine.to(`#circle_x5F_${i}_x5F_end`, {
         strokeDashoffset: 19,
