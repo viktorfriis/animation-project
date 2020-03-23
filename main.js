@@ -7,10 +7,10 @@ let myJSON = [];
 document.addEventListener("DOMContentLoaded", start);
 
 function start() {
-    fetchSVGS();
+    fetchData();
 }
 
-function fetchSVGS() {
+function fetchData() {
     fetch('svgs/landing.svg')
         .then(r => r.text())
         .then(mySVG => {
@@ -23,7 +23,6 @@ function fetchSVGS() {
             return response.json()
         })
         .then(data => {
-            // Work with JSON data here
             console.log(data);
             myJSON = data;
         })
@@ -66,6 +65,10 @@ function zoomSymbol() {
 
     //Info i infoboksen bliver opdateret, afhængig af hvilket symbol der er klikket på
     document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
+    document.querySelector("#img1").src = `images/${clickedSymbol.billede_1}`;
+    document.querySelector("#figcaption1").textContent = clickedSymbol.billede_1_billedtekst;
+    document.querySelector("#img2").src = `images/${clickedSymbol.billede_2}`;
+    document.querySelector("#figcaption2").textContent = clickedSymbol.billede_2_billedtekst;
 
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
