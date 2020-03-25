@@ -32,7 +32,7 @@ body {
         left: 60px;
 
         #text {
-            background-color: lightblue;
+            background-color: #7AB2F4;
             padding: 15px 30px;
             border-radius: 10px;
             font-size: 18px;
@@ -44,21 +44,34 @@ body {
         }
 
         img {
-            width: 80px;
+            width: 50px;
+
+            @include big-tablet {
+                width: 80px;
+            }
         }
 
         #arrow_top {
             position: absolute;
-            left: 210px;
+            left: 160px;
             bottom: 5px;
             transform: rotate(60deg);
+
+            @include big-tablet {
+                left: 210px;
+            }
         }
 
         #arrow_bottom {
             position: absolute;
             left: 0;
-            top: 120px;
+            top: 100px;
             transform: scaleY(-1) rotate(-30deg);
+
+            @include big-tablet {
+                left: 0;
+                top: 120px;
+            }
         }
 
         @include big-tablet {
