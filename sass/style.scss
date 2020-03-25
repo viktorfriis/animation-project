@@ -19,6 +19,10 @@ body {
         font-size: 70px;
         position: absolute;
         left: 50%;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-style: regular;
+
         transform: translate(-50%, 0);
 
         @include big-tablet {
@@ -29,14 +33,17 @@ body {
     #cta {
         position: absolute;
         top: 170px;
-        left: 60px;
+        left: 50px;
 
         #text {
-            background-color: #7AB2F4;
+            background-color: lightblue;
             padding: 15px 30px;
             border-radius: 10px;
             font-size: 18px;
             position: relative;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 100;
 
             @include big-tablet {
                 font-size: 25px;
@@ -53,12 +60,12 @@ body {
 
         #arrow_top {
             position: absolute;
-            left: 160px;
+            left: 175px;
             bottom: 5px;
             transform: rotate(60deg);
 
             @include big-tablet {
-                left: 210px;
+                left: 230px;
             }
         }
 
@@ -69,7 +76,6 @@ body {
             transform: scaleY(-1) rotate(-30deg);
 
             @include big-tablet {
-                left: 0;
                 top: 120px;
             }
         }
@@ -79,7 +85,6 @@ body {
         }
     }
 }
-
 
 #landing {
     position: relative;
@@ -109,8 +114,47 @@ svg {
         margin-top: 0;
     }
 
+    #h2_1 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #h2_2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #h2_3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #h2_4 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #h2_5 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #h2_6 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+    }
+
     .infotext {
         opacity: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
     }
 
     #close {
@@ -195,4 +239,36 @@ svg {
 
 .infotext {
     font-family: "Montserrat", sans-serif;
+}
+
+// FONTE
+
+/* Montserrat regular */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Regular.eot");
+    src: url("fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Montserrat-Regular.woff2") format("woff2"), url("fonts/Montserrat-Regular.woff") format("woff"), url("fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Montserrat Medium */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Medium.eot");
+    src: url("fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/Montserrat-Medium.woff2") format("woff2"), url("fonts/Montserrat-Medium.woff") format("woff"), url("fonts/Montserrat-Medium.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Montserrat Semibold */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-SemiBold.eot");
+    src: url("fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/Montserrat-SemiBold.woff2") format("woff2"), url("fonts/Montserrat-SemiBold.woff") format("woff"), url("fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
 }
