@@ -2,12 +2,27 @@
   {
     "title": "De første og significante computere",
     "dash": 202,
+<<<<<<< HEAD
     "par1": "The Abacus - Abacu’sen er en kugleramme brugt til regning. Rammen består af op til flere linjer med hver 10 perler på. Hver linje repræsenterer en power of 10. Den tidligste abacus regnes for at være en sumerisk fra omkring 2700–2300 f.Kr. og siges derfor, at være den første forfader til den mekaniske  computer, da den er det første redskab brugt til at assistere med matematiske udregninger.",
     "par2": "Enigma breaking computer “The Bombe” - Under 2. Verdenskrig satte krigsministeriet den brilliante matematiker Allan Turing til at lede et hold af videnskabsmænd og kvinder, hvis opgave var at bryde den tyske enigma kode. Allan Turing anses for at være grundlæggeren af computervidenskaben. Han konstruerede en stor maskine, som blev kaldt The Bombe Machine. I princippet var det 1.000 parallelle enigmamaskiner, der konstant stod og afprøvede mulige koder.",
     "par3": "Den stod og kørte dag ud og dag ind og forsøgte at bryde koden. Ved hjælp af den kodede tekst og kvalificerede gæt fra englændernes side, kunne de i slutningen af krigen bryde tyskernes kode på 12 timer.",
     "par4": "Apollo 11’s styringssystem AGC (Apollo Guidance Computer) - Designet af ‘MIT’s Instrumentation Laboratory’, var dette computeren der sendte mennesket til månen og tilbage igen. AGC computeren var kulminationen af mange års arbejde for at reducere størrelsen fra at fylde syv køleskabe ned til en kompakt størrelse der kunne være ombord på Apollo 11.",
     "par5": "Sammenlignet med idags smartphones - AGC havde en hukommelse på 72 kb eller 32,768 bits RAM, hvilket i sammenligning til i dags f.eks Iphone 11 som har 4gb ram, hvilket er 34,359,738,368 bits. Dette er mere end en million gange mere hukommelse. Endvidere havde AGC en processor der kørte på 0,043MHz, sammenlignet med idags iphone der kører på 2490 MHz, hvilket er 100.000 gange kraftigere. ",
     "par6": "Hjemmecomputeren - De første hjemmecomputere blev lanceret i 1975, dog var det først i 80’erne de mere velkendte hjemmecomputere blev lanceret. Som f.eks Commodores C64, og Apples Lisa. Disse var de første kommercielle computere.",
+=======
+    "h2_1": "The Abacus",
+    "par1": "Abacu’sen er en kugleramme brugt til regning. Rammen består af op til flere linjer med hver 10 perler på. Hver linje repræsenterer en power of 10. Den tidligste abacus regnes for at være en sumerisk fra omkring 2700–2300 f.Kr. og siges derfor, at være den første forfader til den mekaniske  computer, da den er det første redskab brugt til at assistere med matematiske udregninger.",
+    "h2_2": "Enigma breaking computer “The Bombe”",
+    "par2": "Under 2. Verdenskrig satte krigsministeriet den brilliante matematiker Allan Turing til at lede et hold af videnskabsmænd og kvinder, hvis opgave var at bryde den tyske enigma kode. Allan Turing anses for at være grundlæggeren af computervidenskaben. Han konstruerede en stor maskine, som blev kaldt The Bombe Machine. I princippet var det 1.000 parallelle enigmamaskiner, der konstant stod og afprøvede mulige koder.",
+    "h2_3": "",
+    "par3": "Den stod og kørte dag ud og dag ind og forsøgte at bryde koden. Ved hjælp af den kodede tekst og kvalificerede gæt fra englændernes side, kunne de i slutningen af krigen bryde tyskernes kode på 12 timer.",
+    "h2_4": "Apollo 11’s styringssystem AGC (Apollo Guidance Computer)",
+    "par4": "Designet af ‘MIT’s Instrumentation Laboratory’, var dette computeren der sendte mennesket til månen og tilbage igen. AGC computeren var kulminationen af mange års arbejde for at reducere størrelsen fra at fylde syv køleskabe ned til en kompakt størrelse der kunne være ombord på Apollo 11.",
+    "h2_5": "Sammenlignet med idags smartphones",
+    "par5": "AGC havde en hukommelse på 72 kb eller 32,768 bits RAM, hvilket i sammenligning til i dags f.eks Iphone 11 som har 4gb ram, hvilket er 34,359,738,368 bits. Dette er mere end en million gange mere hukommelse. Endvidere havde AGC en processor der kørte på 0,043MHz, sammenlignet med idags iphone der kører på 2490 MHz, hvilket er 100.000 gange kraftigere. ",
+    "h2_6": "Hjemmecomputeren",
+    "par6": "De første hjemmecomputere blev lanceret i 1975, dog var det først i 80’erne de mere velkendte hjemmecomputere blev lanceret. Som f.eks Commodores C64, og Apples Lisa. Disse var de første kommercielle computere.",
+>>>>>>> 62742e4e2456f4bbb8c3acf359092c322ce2504c
     "billede_1": "",
     "billede_1_billedtekst": "",
     "billede_2": "",
@@ -20,11 +35,17 @@
     "par2": "De fleste forstår e-handel i det omfang at købe tøj, elektronik, rejser, mad osv. over nettet. Hvilket også er rigtigt og er det man kalder B2C - business to consumer. ",
     "par3": "Derudover er der dog også B2B - business to business og er for eksempel hvis en digital virksomhed køber en softwareløsning hos en anden virksomhed via “skyen”.",
     "par4": "Og så er der også den model der kaldes B2B2C - business to business to consumer og er hvor privatkunder bestiller varer direkte fra leverandøren gennem en forhandler.",
+<<<<<<< HEAD
     "par5": "",
     "par6": "",
     "billede_1": "e-handel_et.jpg",
     "billede_1_billedtekst": "E-handel er det mest markante vækstområde i detailhandlen.",
     "billede_2": "e-handel_et.jpg",
+=======
+    "billede_1": "",
+    "billede_1_billedtekst": "",
+    "billede_2": "",
+>>>>>>> 62742e4e2456f4bbb8c3acf359092c322ce2504c
     "billede_2_billedtekst": ""
   },
   {
@@ -32,6 +53,7 @@
     "dash": 106,
     "par1": "Internettet har ændret fuldstændig på vores eksistens. Det har revolutioneret kommunikationen i det omfang at det nu er vores fortrukne måde at kommunikere på, til hverdag. Før internettet var man for eksempel nødsaget til at gå ned i kiosken for at følge med i nyhederne - i dag er det kun et klik eller to væk og så kan man være opdateret på verdenssituationen på et splitsekund.",
     "par2": "Internettet i sig selv er blevet transformeret. I de tidlige dage var det et statisk netværk designet til at transportere en lille fragt med bytes eller en kort besked mellem to terminaler. Det var altså et repository med information, hvor indholdet kun blev offentliggjort og vedligeholdt af ekspertkodere. Det har dog ændret sig i dag hvor vi alle er kommentatorer, udgivere og skabere.",
+<<<<<<< HEAD
     "par3": "",
     "par4": "",
     "par5": "",
@@ -39,6 +61,11 @@
     "billede_1": "internet_et.jpg",
     "billede_1_billedtekst": "",
     "billede_2": "internet_to.jpg",
+=======
+    "billede_1": "",
+    "billede_1_billedtekst": "",
+    "billede_2": "",
+>>>>>>> 62742e4e2456f4bbb8c3acf359092c322ce2504c
     "billede_2_billedtekst": ""
   },
   {
@@ -46,6 +73,7 @@
     "dash": 141,
     "par1": "Første tegn på esport var i 1972, hvor der blev afholdt en ‘Spacewar’ turnering, hvor førstepladsen vandt et års abonnement til magasinet Rolling Stones. I 1997 blev der afholdt en Quake turnering, som mange ser som det første ‘rigtige’ esports arrangement, som vi kender det. Internettet tillader, 2000 spillere at spillede mod hinanden online, og spille igennem en slags kvalifikationer, hvor de sidste 16 spillere, bliver fløjet til Atlanta, for at deltage i en LAN-turnering.",
     "par2": "Esport verdenen eksploderer i det 21. århundrede, med større og større turneringer, flere spillere, og samtidigt flere forskellige spil, som har et solidt fodfæste inden for esport. Og inden længe, bliver de bedste spillere set som en slags superstjerner.",
+<<<<<<< HEAD
     "par3": "",
     "par4": "",
     "par5": "",
@@ -53,6 +81,11 @@
     "billede_1": "",
     "billede_1_billedtekst": "",
     "billede_2": "",
+=======
+    "billede_1": "esport_foer.jpg",
+    "billede_1_billedtekst": "",
+    "billede_2": "esport_nu.jpg",
+>>>>>>> 62742e4e2456f4bbb8c3acf359092c322ce2504c
     "billede_2_billedtekst": ""
   },
   {
@@ -61,9 +94,12 @@
     "par1": "I 1806 begyndte det danske postvæsen deres lokalomdeling i København, efterfulgt af 17 større danske byer med over 6.000 indbyggere. Dette betød større tilgængelighed af aviser, heraf nyheder, til de danske borgere. Den længstlevende danske avis er Berlingske Tidende (tidl. Kjøbenhavnske Danske Post-Tidender), som blev grundlagt i 1749. Dengang udkom avisen to gange ugentligt, og fra 1841 udkom den dagligt. ",
     "par2": "Som følge af internettets udbredelse, begyndte flere dagblade i midten af 1990’erne at publicere deres nyheder på internettet. Dette startede blot som en online-version af papiravisen, men på grund af internettets hastighed, og digitaliseringen, har avisernes platforme på internettet udviklet sig til at blive mange borgeres foretrukne nyhedsstrøm. Nyheder er tilgængelige hele dagen, “leveringstiden” på en breaking-nyhed er øjeblikkelig, hvilket en trykt avis ikke kan hamle op med længere. ",
     "par3": "Afsenderne på nyhederne er også blevet flere, i og med at alle kan lave og distribuere nyheder som de vil. Rigtig mange private virksomheder bruger for eksempel e-mail nyhedsbreve til at markedsføre deres produkter, oplyse kunder om nye tiltag, mm., hvilket ikke var en mulighed før i tiden.",
+<<<<<<< HEAD
     "par4": "",
     "par5": "",
     "par6": "",
+=======
+>>>>>>> 62742e4e2456f4bbb8c3acf359092c322ce2504c
     "billede_1": "nyhed_foer.jpg",
     "billede_1_billedtekst": "Nyhederne blev i gamle dage læst i avisen.",
     "billede_2": "nyhed_nu.jpg",
@@ -75,9 +111,12 @@
     "par1": "Digitaliseringen har gjort manges arbejde lettere, og i nogle tilfælde har, for eksempel robotter, fuldstændig overtaget arbejdet fra mennesker, på grund af teknologier som kunstig intelligens. ",
     "par2": "Da samlebåndet blev introduceret af Harrison Ford, var det revolutionerende. Det gjorde produktionen af produkter hurtigere og mere effektiv, og det dannede arbejdspladser. Som tiden er gået, har teknologierne udviklet sig drastisk. Robotter har overtaget arbejdsopgaver, som førhen kun kunne udføres manuelt, såsom svejsning, maling, samling, pakning og forsendelse, produkt inspektioner samt tests. Alt dette udføres med langt større præcision, hurtighed og udholdenhed end mennesket er i stand til.",
     "par3": "Også kontorarbejde er blevet digitaliseret, i en sådan grad, at der ikke er behov for kontoret længere. De fleste hjem i Danmark har i dag højhastighedsinternet, som kan forbinde den bærbare arbejdscomputer, til arbejdspladsens servere, uden besvær. Det vil altså sige, at under for eksempel en pandemi, som Coronavirussen i 2020, har mange danskere kunne flytte arbejdspladsen hjem i stuen. Hvis Coronavirussen var brudt ud for 50 år siden, havde den tegnet et aldeles andersledes billede af, hvordan mange danskeres hverdag ville have set ud. ",
+<<<<<<< HEAD
     "par4": "",
     "par5": "",
     "par6": "",
+=======
+>>>>>>> 62742e4e2456f4bbb8c3acf359092c322ce2504c
     "billede_1": "arbejde_foer.jpg",
     "billede_1_billedtekst": "Volkswagen fabrik i 1957, hvor forskellige modeller bliver samlet.",
     "billede_2": "arbejde_nu.jpg",

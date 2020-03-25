@@ -1,3 +1,11 @@
+$big-tablet: 1000px;
+
+@mixin big-tablet {
+    @media (min-width: #{$big-tablet}) {
+        @content;
+    }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +13,60 @@
 body {
   margin: 0;
 }
+
+#header {
+    #headline {
+        font-size: 70px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        @include big-tablet {
+            top: 50px;
+        }
+    }
+
+    #cta {
+        position: absolute;
+        top: 170px;
+        left: 60px;
+
+        #text {
+            background-color: lightblue;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 18px;
+            position: relative;
+
+            @include big-tablet {
+                font-size: 25px;
+            }
+        }
+
+        img {
+            width: 80px;
+        }
+
+        #arrow_top {
+            position: absolute;
+            left: 210px;
+            bottom: 5px;
+            transform: rotate(60deg);
+        }
+
+        #arrow_bottom {
+            position: absolute;
+            left: 0;
+            top: 120px;
+            transform: scaleY(-1) rotate(-30deg);
+        }
+
+        @include big-tablet {
+            top: 230px;
+        }
+    }
+}
+
 
 #landing {
   position: relative;

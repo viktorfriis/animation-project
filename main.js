@@ -54,6 +54,7 @@ function SVGInteractive() {
 }
 
 function zoomSymbol() {
+<<<<<<< HEAD
   const i = Number(this.dataset.number);
   const svg = document.querySelector("svg");
   console.log(i);
@@ -167,3 +168,147 @@ function closePopup(i, clickedSymbol) {
     duration: 1
   });
 }
+=======
+    const i = Number(this.dataset.number);
+    const svg = document.querySelector("svg");
+    console.log(i);
+    document.querySelector("#startup").play();
+
+    const symbolBox = this.getBBox();
+    console.log(symbolBox);
+
+    const clickedSymbol = myJSON[i];
+
+    //Info i infoboksen bliver opdateret, afhængig af hvilket symbol der er klikket på
+    document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
+
+    document.querySelector("#h2_1").textContent = clickedSymbol.h2_1;
+    document.querySelector("#par1").textContent = clickedSymbol.par1;
+
+    document.querySelector("#h2_2").textContent = clickedSymbol.h2_2;
+    document.querySelector("#par2").textContent = clickedSymbol.par2;
+
+    document.querySelector("#h2_3").textContent = clickedSymbol.h2_3;
+    document.querySelector("#par3").textContent = clickedSymbol.par3;
+
+    document.querySelector("#h2_4").textContent = clickedSymbol.h2_4;
+    document.querySelector("#par4").textContent = clickedSymbol.par4;
+
+    document.querySelector("#h2_5").textContent = clickedSymbol.h2_5;
+    document.querySelector("#par5").textContent = clickedSymbol.par5;
+
+    document.querySelector("#h2_6").textContent = clickedSymbol.h2_6;
+    document.querySelector("#par6").textContent = clickedSymbol.par6;
+
+    document.querySelector("#img1").src = `images/${clickedSymbol.billede_1}`;
+    document.querySelector("#figcaption1").textContent = clickedSymbol.billede_1_billedtekst;
+    document.querySelector("#img2").src = `images/${clickedSymbol.billede_2}`;
+    document.querySelector("#figcaption2").textContent = clickedSymbol.billede_2_billedtekst;
+
+    const timeline = gsap.timeline();
+    const timelineLine = gsap.timeline();
+
+    //Starter med at animere "ledningen" i en timeline
+    gsap.to("#header", {
+        opacity: 0,
+        duration: 0.5,
+        delay: 0.8
+    })
+
+    timelineLine.to(`#circle_x5F_${i}_x5F_start`, {
+        strokeDashoffset: 0,
+        duration: 1
+    });
+
+    timelineLine.to(`#path_x5F_${i}`, {
+        strokeDashoffset: 0,
+        duration: 2
+    });
+
+    timelineLine.to(`#circle_x5F_${i}_x5F_end`, {
+        strokeDashoffset: 0,
+        duration: 1
+    });
+
+    //Så bliver der zoomet ind på det valgte symbol, ved at sætte koordinatet i viewboxen samt gøre viewboxen 4 gange mindre
+    timeline.to(svg, {
+        attr: {
+            viewBox: `${symbolBox.x - 40} ${symbolBox.y - 60} 175 233.75`
+        },
+        duration: 2,
+        delay: 1
+    });
+
+    //Når der er blevet zoomet ind, åbner infoskærmen
+    timeline.to("#infoscreen", {
+        maxHeight: "80vh",
+        border: "10px solid #00FF00",
+        padding: "50px",
+        duration: 1
+    });
+
+    //Når infoskærmen er åbnet, bliver teksten synlig
+    timeline.to(".infotext", {
+        opacity: "1",
+        duration: 0.3
+    });
+
+    //Luk knap gøres klikbar
+    document.querySelector("#close").addEventListener("click", () => {
+        closePopup(i, clickedSymbol);
+    });
+}
+
+function closePopup(i, clickedSymbol) {
+    const svg = document.querySelector("svg");
+
+    document.querySelector("#shutdown").play();
+
+    const timeline = gsap.timeline();
+    const timelineLine = gsap.timeline();
+
+
+
+    timeline.to(".infotext", {
+        opacity: "0",
+        duration: 0.3
+    });
+
+    timeline.to("#infoscreen", {
+        maxHeight: "0",
+        border: "0px solid #00FF00",
+        padding: "0",
+        duration: 1
+    });
+
+    timeline.to(svg, {
+        attr: {
+            viewBox: `0 0 700 935`
+        },
+        duration: 2
+    });
+
+    timelineLine.to(`#circle_x5F_${i}_x5F_end`, {
+        strokeDashoffset: 19,
+        duration: 1,
+        delay: 1
+    });
+
+    timelineLine.to(`#path_x5F_${i}`, {
+        strokeDashoffset: clickedSymbol.dash,
+        duration: 2
+    });
+
+    timelineLine.to("#header", {
+        opacity: 1,
+        duration: 0.5
+    })
+
+    timelineLine.to(`#circle_x5F_${i}_x5F_start`, {
+        strokeDashoffset: 19,
+        duration: 1
+    });
+
+
+}
+>>>>>>> 62742e4e2456f4bbb8c3acf359092c322ce2504c
