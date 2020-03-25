@@ -2,7 +2,7 @@
         "title": "De første og significante computere",
         "dash": 202,
         "h2_1": "The Abacus",
-        "par1": "Abacu’sen er en kugleramme brugt til regning. Rammen består af op til flere linjer med hver 10 perler på. Hver linje repræsenterer en power of 10. Den tidligste abacus regnes for at være en sumerisk fra omkring 2700–2300 f.Kr. og siges derfor, at være den første forfader til den mekaniske  computer, da den er det første redskab brugt til at assistere med matematiske udregninger.",
+        "par1": "Abacus’en er en kugleramme brugt til regning. Rammen består af op til flere linjer med hver 10 perler på. Hver linje repræsenterer en power of 10. Den tidligste abacus regnes for at være en sumerisk fra omkring 2700–2300 f.Kr. og siges derfor, at være den første forfader til den mekaniske  computer, da den er det første redskab brugt til at assistere med matematiske udregninger.",
         "h2_2": "Enigma breaking computer “The Bombe”",
         "par2": "Under 2. Verdenskrig satte krigsministeriet den brilliante matematiker Allan Turing til at lede et hold af videnskabsmænd og kvinder, hvis opgave var at bryde den tyske enigma kode. Allan Turing anses for at være grundlæggeren af computervidenskaben. Han konstruerede en stor maskine, som blev kaldt The Bombe Machine. I princippet var det 1.000 parallelle enigmamaskiner, der konstant stod og afprøvede mulige koder.",
         "h2_3": "",
@@ -13,10 +13,14 @@
         "par5": "AGC havde en hukommelse på 72 kb eller 32,768 bits RAM, hvilket i sammenligning til i dags f.eks Iphone 11 som har 4gb ram, hvilket er 34,359,738,368 bits. Dette er mere end en million gange mere hukommelse. Endvidere havde AGC en processor der kørte på 0,043MHz, sammenlignet med idags iphone der kører på 2490 MHz, hvilket er 100.000 gange kraftigere. ",
         "h2_6": "Hjemmecomputeren",
         "par6": "De første hjemmecomputere blev lanceret i 1975, dog var det først i 80’erne de mere velkendte hjemmecomputere blev lanceret. Som f.eks Commodores C64, og Apples Lisa. Disse var de første kommercielle computere.",
-        "billede_1": "",
-        "billede_1_billedtekst": "",
-        "billede_2": "",
-        "billede_2_billedtekst": ""
+        "billede_1": "abacus_computer.jpg",
+        "billede_1_billedtekst": "The Abacus",
+        "billede_2": "enigma_computer.jpg",
+        "billede_2_billedtekst": "Enigma computeren",
+        "billede_3": "apollo_computer.jpg",
+        "billede_3_billedtekst": "Apollo 11",
+        "billede_4": "the_lisa_computer.jpg",
+        "billede_4_billedtekst": "Apple's Lisa computer"
     },
     {
         "title": "E-handel",

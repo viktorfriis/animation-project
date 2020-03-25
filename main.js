@@ -88,8 +88,23 @@ function zoomSymbol() {
 
     document.querySelector("#img1").src = `images/${clickedSymbol.billede_1}`;
     document.querySelector("#figcaption1").textContent = clickedSymbol.billede_1_billedtekst;
+
     document.querySelector("#img2").src = `images/${clickedSymbol.billede_2}`;
     document.querySelector("#figcaption2").textContent = clickedSymbol.billede_2_billedtekst;
+
+    document.querySelector("#img3").src = `images/${clickedSymbol.billede_3}`;
+    document.querySelector("#figcaption3").textContent = clickedSymbol.billede_3_billedtekst;
+
+    document.querySelector("#img4").src = `images/${clickedSymbol.billede_4}`;
+    document.querySelector("#figcaption4").textContent = clickedSymbol.billede_4_billedtekst;
+
+    if (clickedSymbol.billede_3 === undefined) {
+        document.querySelector("#fig3").style.display = "none";
+        document.querySelector("#fig4").style.display = "none";
+    } else {
+        document.querySelector("#fig3").style.display = "block";
+        document.querySelector("#fig4").style.display = "block";
+    }
 
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
