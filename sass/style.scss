@@ -115,11 +115,17 @@ svg {
 
         img {
             width: 100%;
+            height: auto;
         }
 
         figcaption {
             font-size: 10px;
         }
+    }
+
+    .portrait {
+        float: right;
+        width: 50%;
     }
 }
 

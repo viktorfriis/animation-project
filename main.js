@@ -85,6 +85,7 @@ function zoomSymbol() {
     document.querySelector("#h2_6").textContent = clickedSymbol.h2_6;
     document.querySelector("#par6").textContent = clickedSymbol.par6;
 
+
     document.querySelector("#img1").src = `images/${clickedSymbol.billede_1}`;
     document.querySelector("#figcaption1").textContent = clickedSymbol.billede_1_billedtekst;
     document.querySelector("#img2").src = `images/${clickedSymbol.billede_2}`;
@@ -143,6 +144,7 @@ function zoomSymbol() {
         closePopup(i, clickedSymbol);
     });
 }
+
 
 function closePopup(i, clickedSymbol) {
     const svg = document.querySelector("svg");
