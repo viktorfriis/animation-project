@@ -58,6 +58,8 @@ function zoomSymbol() {
     const svg = document.querySelector("svg");
     console.log(i);
 
+    document.querySelector("#startup").play();
+
     const symbolBox = this.getBBox();
     console.log(symbolBox);
 
@@ -67,16 +69,39 @@ function zoomSymbol() {
     document.querySelector("#infoscreen h1").textContent = clickedSymbol.title;
 
     document.querySelector("#par1").textContent = clickedSymbol.par1;
+    document.querySelector("#h2_1").textContent = clickedSymbol.h2_1;
+
     document.querySelector("#par2").textContent = clickedSymbol.par2;
+    document.querySelector("#h2_2").textContent = clickedSymbol.h2_2;
+
     document.querySelector("#par3").textContent = clickedSymbol.par3;
+    document.querySelector("#h2_3").textContent = clickedSymbol.h2_3;
+
     document.querySelector("#par4").textContent = clickedSymbol.par4;
+    document.querySelector("#h2_4").textContent = clickedSymbol.h2_4;
+
     document.querySelector("#par5").textContent = clickedSymbol.par5;
+    document.querySelector("#h2_5").textContent = clickedSymbol.h2_5;
+
     document.querySelector("#par6").textContent = clickedSymbol.par6;
+    document.querySelector("#h2_6").textContent = clickedSymbol.h2_6;
 
     document.querySelector("#img1").src = `images/${clickedSymbol.billede_1}`;
     document.querySelector("#figcaption1").textContent = clickedSymbol.billede_1_billedtekst;
     document.querySelector("#img2").src = `images/${clickedSymbol.billede_2}`;
     document.querySelector("#figcaption2").textContent = clickedSymbol.billede_2_billedtekst;
+    document.querySelector("#img3").src = `images/${clickedSymbol.billede_3}`;
+    document.querySelector("#figcaption3").textContent = clickedSymbol.billede_3_billedtekst;
+    document.querySelector("#img4").src = `images/${clickedSymbol.billede_4}`;
+    document.querySelector("#figcaption4").textContent = clickedSymbol.billede_4_billedtekst;
+
+    if (clickedSymbol.billede_3 === undefined) {
+        document.querySelector("#fig3").style.display = "none";
+        document.querySelector("#fig4").style.display = "none";
+    } else {
+        document.querySelector("#fig3").style.display = "block";
+        document.querySelector("#fig4").style.display = "block";
+    }
 
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
@@ -96,6 +121,12 @@ function zoomSymbol() {
         strokeDashoffset: 0,
         duration: 1
     });
+
+    gsap.to("#header", {
+        opacity: 0,
+        duration: 0.3,
+        delay: 0.8
+    })
 
     //Så bliver der zoomet ind på det valgte symbol, ved at sætte koordinatet i viewboxen samt gøre viewboxen 4 gange mindre
     timeline.to(svg, {
@@ -129,6 +160,8 @@ function zoomSymbol() {
 function closePopup(i, clickedSymbol) {
     const svg = document.querySelector("svg");
 
+    document.querySelector("#shutdown").play();
+
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
 
@@ -139,7 +172,7 @@ function closePopup(i, clickedSymbol) {
 
     timeline.to("#infoscreen", {
         maxHeight: "0",
-        border: "0px solid #00FF00",
+        border: "0px solid #578cbd",
         padding: "0",
         duration: 1
     });
@@ -162,8 +195,14 @@ function closePopup(i, clickedSymbol) {
         duration: 2
     });
 
+    timelineLine.to("#header", {
+        opacity: 1,
+        duration: 0.3
+    })
+
     timelineLine.to(`#circle_x5F_${i}_x5F_start`, {
         strokeDashoffset: 19,
         duration: 1
     });
+
 }
