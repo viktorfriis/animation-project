@@ -1,146 +1,154 @@
 $big-tablet: 1000px;
 
 @mixin big-tablet {
-  @media (min-width: #{$big-tablet}) {
-    @content;
-  }
+    @media (min-width: #{$big-tablet}) {
+        @content;
+    }
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 #header {
-  #headline {
-    font-size: 70px;
-    position: absolute;
-    left: 50%;
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-style: regular;
+    #headline {
+        font-size: 70px;
+        position: absolute;
+        left: 50%;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-style: regular;
 
-    transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
 
-    @include big-tablet {
-      top: 50px;
-    }
-  }
-
-  #cta {
-    position: absolute;
-    top: 170px;
-    left: 60px;
-
-    #text {
-      background-color: lightblue;
-      padding: 15px 30px;
-      border-radius: 10px;
-      font-size: 18px;
-      position: relative;
-      font-family: "Montserrat";
-      font-style: normal;
-      font-weight: 100;
-
-      @include big-tablet {
-        font-size: 25px;
-      }
+        @include big-tablet {
+            top: 50px;
+        }
     }
 
-    img {
-      width: 80px;
-    }
+    #cta {
+        position: absolute;
+        top: 170px;
+        left: 50px;
 
-    #arrow_top {
-      position: absolute;
-      left: 210px;
-      bottom: 5px;
-      transform: rotate(60deg);
-    }
+        #text {
+            background-color: lightblue;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 18px;
+            position: relative;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 100;
 
-    #arrow_bottom {
-      position: absolute;
-      left: 0;
-      top: 120px;
-      transform: scaleY(-1) rotate(-30deg);
-    }
+            @include big-tablet {
+                font-size: 25px;
+            }
+        }
 
-    @include big-tablet {
-      top: 230px;
+        img {
+            width: 50px;
+
+            @include big-tablet {
+                width: 80px;
+            }
+        }
+
+        #arrow_top {
+            position: absolute;
+            left: 175px;
+            bottom: 5px;
+            transform: rotate(60deg);
+
+            @include big-tablet {
+                left: 230px;
+            }
+        }
+
+        #arrow_bottom {
+            position: absolute;
+            left: 0;
+            top: 100px;
+            transform: scaleY(-1) rotate(-30deg);
+
+            @include big-tablet {
+                top: 120px;
+            }
+        }
+
+        @include big-tablet {
+            top: 230px;
+        }
     }
-  }
 }
 
 #landing {
-  position: relative;
-  height: 100vh;
-  display: grid;
-  align-content: center;
+    position: relative;
+    height: 100vh;
+    display: grid;
+    align-content: center;
 }
 
 svg {
-  transition: 3s;
+    transition: 3s;
 }
 
 #infoscreen {
-  position: absolute;
-  background-color: #aed4da;
-  width: 80%;
-  margin: 0 auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 80vh;
-  max-height: 0;
-  border: #578cbd;
-  overflow: scroll;
-
-  h1 {
-    margin-top: 0;
-  }
-
-  #h2_1 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-  }
-  #h2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-  }
-
-  .infotext {
-    opacity: 0;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-  }
-
-  #close {
-    font-size: 30px;
     position: absolute;
-    top: 50px;
-    right: 50px;
-    font-family: sans-serif;
-  }
+    background-color: #aed4da;
+    width: 80%;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+    max-height: 0;
+    border: #578cbd;
+    overflow: scroll;
 
-  figure {
-    margin: 0;
-    padding: 0;
-
-    img {
-      width: 100%;
+    h1 {
+        margin-top: 0;
     }
 
-    figcaption {
-      font-size: 10px;
+    h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
     }
-  }
+
+    .infotext {
+        opacity: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #close {
+        font-size: 30px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        font-family: sans-serif;
+    }
+
+    figure {
+        margin: 0;
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+
+        figcaption {
+            font-size: 10px;
+        }
+    }
 }
+
 
 #circle_x5F_0_x5F_start,
 #circle_x5F_0_x5F_end,
@@ -154,11 +162,11 @@ svg {
 #circle_x5F_4_x5F_end,
 #circle_x5F_5_x5F_start,
 #circle_x5F_5_x5F_end {
-  stroke-dashoffset: 19;
-  stroke-dasharray: 19;
-  transform: rotate(-90deg);
-  transform-origin: center;
-  transform-box: fill-box;
+    stroke-dashoffset: 19;
+    stroke-dasharray: 19;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transform-box: fill-box;
 }
 
 #circle_x5F_0_x5F_end,
@@ -167,41 +175,41 @@ svg {
 #circle_x5F_3_x5F_end,
 #circle_x5F_4_x5F_end,
 #circle_x5F_5_x5F_end {
-  transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 #path_x5F_0 {
-  stroke-dasharray: 202;
-  stroke-dashoffset: 202;
+    stroke-dasharray: 202;
+    stroke-dashoffset: 202;
 }
 
 #path_x5F_1 {
-  stroke-dasharray: 104;
-  stroke-dashoffset: 104;
+    stroke-dasharray: 104;
+    stroke-dashoffset: 104;
 }
 
 #path_x5F_2 {
-  stroke-dasharray: 106;
-  stroke-dashoffset: 106;
+    stroke-dasharray: 106;
+    stroke-dashoffset: 106;
 }
 
 #path_x5F_3 {
-  stroke-dasharray: 141;
-  stroke-dashoffset: 141;
+    stroke-dasharray: 141;
+    stroke-dashoffset: 141;
 }
 
 #path_x5F_4 {
-  stroke-dasharray: 134;
-  stroke-dashoffset: 134;
+    stroke-dasharray: 134;
+    stroke-dashoffset: 134;
 }
 
 #path_x5F_5 {
-  stroke-dasharray: 127;
-  stroke-dashoffset: 127;
+    stroke-dasharray: 127;
+    stroke-dashoffset: 127;
 }
 
 .infotext {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 // FONTE
@@ -209,29 +217,29 @@ svg {
 /* Montserrat regular */
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Regular.eot");
-  src: url("fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Montserrat-Regular.woff2") format("woff2"), url("fonts/Montserrat-Regular.woff") format("woff"), url("fonts/Montserrat-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Montserrat";
+    src: url("fonte/Montserrat-Regular.eot");
+    src: url("fonte/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("fonte/Montserrat-Regular.woff2") format("woff2"), url("fonte/Montserrat-Regular.woff") format("woff"), url("fonte/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Montserrat Medium */
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-Medium.eot");
-  src: url("fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/Montserrat-Medium.woff2") format("woff2"), url("fonts/Montserrat-Medium.woff") format("woff"), url("fonts/Montserrat-Medium.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Montserrat";
+    src: url("fonte/Montserrat-Medium.eot");
+    src: url("fonte/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("fonte/Montserrat-Medium.woff2") format("woff2"), url("fonte/Montserrat-Medium.woff") format("woff"), url("fonte/Montserrat-Medium.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Montserrat Semibold */
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("fonts/Montserrat-SemiBold.eot");
-  src: url("fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/Montserrat-SemiBold.woff2") format("woff2"), url("fonts/Montserrat-SemiBold.woff") format("woff"), url("fonts/Montserrat-SemiBold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Montserrat";
+    src: url("fonte/Montserrat-SemiBold.eot");
+    src: url("fonte/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonte/Montserrat-SemiBold.woff2") format("woff2"), url("fonte/Montserrat-SemiBold.woff") format("woff"), url("fonte/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
 }
