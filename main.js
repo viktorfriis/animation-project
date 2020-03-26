@@ -106,7 +106,6 @@ function zoomSymbol() {
         document.querySelector("#fig4").style.display = "block";
     }
 
-
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
 
@@ -211,6 +210,4 @@ function closePopup(i, clickedSymbol) {
         strokeDashoffset: 19,
         duration: 1
     });
-
-
 }
