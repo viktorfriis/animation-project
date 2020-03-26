@@ -173,7 +173,6 @@ svg {
     }
 }
 
-
 #circle_x5F_0_x5F_start,
 #circle_x5F_0_x5F_end,
 #circle_x5F_1_x5F_start,
@@ -188,18 +187,27 @@ svg {
 #circle_x5F_5_x5F_end {
     stroke-dashoffset: 19;
     stroke-dasharray: 19;
-    transform: rotate(-90deg);
     transform-origin: center;
     transform-box: fill-box;
 }
 
+#circle_x5F_0_x5F_start,
+#circle_x5F_3_x5F_end {
+    transform: rotate(-90deg);
+}
+
 #circle_x5F_0_x5F_end,
-#circle_x5F_1_x5F_end,
-#circle_x5F_2_x5F_end,
-#circle_x5F_3_x5F_end,
-#circle_x5F_4_x5F_end,
+#circle_x5F_2_x5F_start,
+#circle_x5F_3_x5F_start,
 #circle_x5F_5_x5F_end {
     transform: rotate(90deg);
+}
+
+#circle_x5F_4_x5F_start,
+#circle_x5F_5_x5F_start,
+#circle_x5F_2_x5F_end,
+#circle_x5F_1_x5F_end {
+    transform: rotate(180deg);
 }
 
 #path_x5F_0 {
