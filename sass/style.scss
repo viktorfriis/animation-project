@@ -87,7 +87,7 @@ svg {
 
 #infoscreen {
   position: absolute;
-  background-color: white;
+  background-color: #aed4da;
   width: 80%;
   margin: 0 auto;
   top: 50%;
@@ -95,7 +95,7 @@ svg {
   transform: translate(-50%, -50%);
   height: 80vh;
   max-height: 0;
-  border: #00ff00;
+  border: #578cbd;
   overflow: scroll;
 
   h1 {
@@ -107,27 +107,7 @@ svg {
     font-style: normal;
     font-weight: 700;
   }
-  #h2_2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-  }
-  #h2_3 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-  }
-  #h2_4 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-  }
-  #h2_5 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-  }
-  #h2_6 {
+  #h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
