@@ -240,6 +240,18 @@ svg {
     stroke-dashoffset: 127;
 }
 
+#muteBtn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+
+    img {
+        width: 100%;
+    }
+}
+
 // FONTE
 
 @font-face {

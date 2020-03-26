@@ -6,6 +6,8 @@ let myJSON = [];
 const cnt = document.querySelector("#infoscreen");
 let ratio;
 
+let mute = false;
+
 document.addEventListener("DOMContentLoaded", start);
 
 function start() {
@@ -14,6 +16,7 @@ function start() {
     ratio = 0;
     document.querySelector("#scroll_bar").style.height = ratio * 100 + "%";
     cnt.addEventListener("scroll", calcRatio);
+    document.querySelector("#muteBtn").addEventListener("click", toggleMute);
 }
 
 function calcRatio() {
@@ -60,7 +63,7 @@ function SVGInteractive() {
         scale: 1.05,
         duration: 1,
         yoyo: true,
-        repeat: 10,
+        repeat: 100,
         transformOrigin: "center"
     });
 }
@@ -70,7 +73,7 @@ function zoomSymbol() {
     const svg = document.querySelector("svg");
     console.log(i);
 
-    document.querySelector("#startup").play();
+    playStartupSound();
 
     const symbolBox = this.getBBox();
     console.log(symbolBox);
@@ -178,7 +181,7 @@ function zoomSymbol() {
 function closePopup(i, clickedSymbol) {
     const svg = document.querySelector("svg");
 
-    document.querySelector("#shutdown").play();
+    playShutdownSound();
 
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
@@ -229,4 +232,28 @@ function closePopup(i, clickedSymbol) {
         duration: 1
     });
 
+}
+
+function playStartupSound() {
+    if (mute === false) {
+        document.querySelector("#startup").play();
+    }
+}
+
+function playShutdownSound() {
+    if (mute === false) {
+        document.querySelector("#shutdown").play();
+    }
+}
+
+function toggleMute() {
+    if (mute === false) {
+        mute = true;
+        document.querySelector("#muteBtn > img").src = "svgs/muted.svg";
+    } else {
+        mute = false;
+        document.querySelector("#muteBtn > img").src = "svgs/sound.svg";
+    }
+
+    console.log(`Muted = ${mute}`);
 }
