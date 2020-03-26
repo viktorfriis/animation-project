@@ -106,6 +106,7 @@ function zoomSymbol() {
         document.querySelector("#fig4").style.display = "block";
     }
 
+
     const timeline = gsap.timeline();
     const timelineLine = gsap.timeline();
 
