@@ -3,12 +3,24 @@
 import gsap from "gsap";
 
 let myJSON = [];
+const cnt = document.querySelector("#infoscreen");
+let ratio;
 
 document.addEventListener("DOMContentLoaded", start);
 
 function start() {
     fetchData();
+
+    ratio = 0;
+    document.querySelector("#scroll_bar").style.height = ratio * 100 + "%";
+    cnt.addEventListener("scroll", calcRatio);
 }
+
+function calcRatio() {
+    ratio = cnt.scrollTop / (cnt.scrollHeight - cnt.clientHeight);
+    document.querySelector("#scroll_bar").style.height = ratio * 100 + "%";
+}
+
 
 function fetchData() {
     fetch("svgs/landing.svg")
@@ -151,6 +163,12 @@ function zoomSymbol() {
         duration: 0.3
     });
 
+    gsap.to("#scroll_container", {
+        maxHeight: "80vh",
+        duration: 1,
+        delay: 3
+    })
+
     //Luk knap gøres klikbar
     document.querySelector("#close").addEventListener("click", () => {
         closePopup(i, clickedSymbol);
@@ -169,6 +187,12 @@ function closePopup(i, clickedSymbol) {
         opacity: "0",
         duration: 0.3
     });
+
+    gsap.to("#scroll_container", {
+        maxHeight: "0",
+        duration: 1,
+        delay: 0.3
+    })
 
     timeline.to("#infoscreen", {
         maxHeight: "0",

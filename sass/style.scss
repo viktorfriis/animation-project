@@ -1,4 +1,6 @@
 $big-tablet: 1000px;
+$dark-blue: #578cbd;
+$light-blue: #aed4da;
 
 @mixin big-tablet {
     @media (min-width: #{$big-tablet}) {
@@ -34,7 +36,7 @@ body {
         left: 50px;
 
         #text {
-            background-color: lightblue;
+            background-color: $light-blue;
             padding: 15px 30px;
             border-radius: 10px;
             font-size: 18px;
@@ -94,9 +96,24 @@ svg {
     transition: 3s;
 }
 
+#scroll_container {
+    position: absolute;
+    width: 10px;
+    height: 80vh;
+    max-height: 0;
+    top: 50%;
+    right: calc(5% - 5px);
+    background-color: lightgray;
+    transform: translate(0, -50%);
+
+    #scroll_bar {
+        background-color: $dark-blue;
+    }
+}
+
 #infoscreen {
     position: absolute;
-    background-color: #aed4da;
+    background-color: $light-blue;
     width: 80%;
     margin: 0 auto;
     top: 50%;
@@ -104,7 +121,7 @@ svg {
     transform: translate(-50%, -50%);
     height: 80vh;
     max-height: 0;
-    border: #578cbd;
+    border: $dark-blue;
     overflow: scroll;
 
     h1 {
