@@ -23,7 +23,7 @@
     "sass": "^1.26.3"
   },
   "dependencies": {
-    "gsap": "^3.2.4",
+    "gsap": "^3.6.0",
     "parcel-plugin-static-files-copy": "^2.3.1",
     "svg-pan-zoom": "github:ariutta/svg-pan-zoom"
   }
